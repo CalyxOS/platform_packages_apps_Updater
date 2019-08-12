@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Tap to view changelog</string>
+    <string name="changelog_unavailable">Changelog unavailable</string>
 </resources>
