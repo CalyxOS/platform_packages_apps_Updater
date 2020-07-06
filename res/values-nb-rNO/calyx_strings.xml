@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_unavailable">Utilgjengelig</string>
+    <string name="changelog_summary">Trykk for å vise</string>
+    <string name="changelog_title">Endringslogg</string>
+</resources>

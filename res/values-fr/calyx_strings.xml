@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_summary">Appuyez pour afficher le journal des modifications</string>
+    <string name="changelog_unavailable">Journal des modifications indisponible</string>
+    <string name="changelog_title">Journal des modifications</string>
+</resources>

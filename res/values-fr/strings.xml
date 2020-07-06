@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_summary">Appuyez pour afficher le journal des modifications</string>
+    <string name="check_for_updates_summary">Appuyez pour vérifier les mises à jour dès que possible</string>
+    <string name="check_for_updates_title">Vérifier les mises à jour</string>
+    <string name="idle_reboot_summary">Redémarrage automatique lorsque l’appareil est inactif après l’installation d’une mise à jour</string>
+    <string name="idle_reboot_title">Redémarrage automatique</string>
+    <string name="battery_not_low_summary">Télécharger / installer les mises à jour uniquement lorsque la batterie est au-dessus du niveau d’avertissement</string>
+    <string name="battery_not_low_title">Exiger une batterie supérieure au niveau d’avertissement</string>
+    <string name="network_type_unmetered">Non mesuré</string>
+    <string name="network_type_not_roaming">Pas d’itinérance</string>
+    <string name="network_type_any">N’importe</string>
+    <string name="network_type_title">Réseaux autorisés</string>
+    <string name="channel_beta">Bêta</string>
+    <string name="channel_stable">Stable</string>
+    <string name="channel_title">Canal de diffusion</string>
+    <string name="settings_title">Paramètres de mise à jour du système</string>
+    <string name="notification_reboot_action_legacy">Redémarrer et installer</string>
+    <string name="notification_reboot_action">Redémarrer</string>
+    <string name="notification_text_legacy">Veuillez installer la dernière version du système d’exploitation.</string>
+    <string name="notification_text">Veuillez redémarrer l’appareil pour exécuter la dernière version du système d’exploitation.</string>
+    <string name="notification_title_legacy">Mise à jour téléchargée avec succès</string>
+    <string name="notification_title">Mise à jour installée avec succès</string>
+    <string name="notification_install_title">Installation de la mise à jour du système</string>
+    <string name="notification_download_title">Téléchargement de la mise à jour du système</string>
+    <string name="notification_channel_progress">Progression de la mise à jour</string>
+    <string name="notification_channel">Invite de redémarrage</string>
+    <string name="app_name">Client de mise à jour en continu</string>
+    <string name="changelog_unavailable">Journal des modifications indisponible</string>
+    <string name="changelog_title">Journal des modifications</string>
+</resources>

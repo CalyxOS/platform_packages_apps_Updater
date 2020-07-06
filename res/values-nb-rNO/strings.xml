@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_for_updates_summary">Trykk for å se etter oppdateringer så snart som mulig</string>
+    <string name="idle_reboot_summary">Start på ny automatisk når enheten er i lediggang etter installasjon av oppdatering</string>
+    <string name="check_for_updates_title">Se etter oppdateringer</string>
+    <string name="battery_not_low_summary">Kun last ned / installer oppdateringer når batterinivået er over advarselsnivået</string>
+    <string name="battery_not_low_title">Krev batterinivå over advarselsnivå</string>
+    <string name="network_type_unmetered">Utenfor datateller</string>
+    <string name="network_type_not_roaming">Ikke ved gjesting</string>
+    <string name="network_type_any">Alle</string>
+    <string name="network_type_title">Tillatte nettverk</string>
+    <string name="channel_stable">Stabil</string>
+    <string name="channel_title">Utgivelseskanal</string>
+    <string name="settings_title">Systemoppdateringsinnstillinger</string>
+    <string name="notification_reboot_action_legacy">Start på ny og installer</string>
+    <string name="notification_reboot_action">Start på ny</string>
+    <string name="notification_text_legacy">Last ned seneste OS-utgivelse.</string>
+    <string name="notification_text">Start enheten på ny for å kjøre seneste OS-utgivelse.</string>
+    <string name="notification_title_legacy">Oppdatering nedlastet</string>
+    <string name="notification_title">Oppdatering installert</string>
+    <string name="notification_install_title">Installerer systemoppdatering…</string>
+    <string name="notification_download_title">Laster ned systemoppdatering…</string>
+    <string name="notification_channel_progress">Oppdateringsframdrift</string>
+    <string name="notification_channel">Omstartsforespørsel</string>
+    <string name="app_name">Sømløs oppdateringsklient</string>
+    <string name="idle_reboot_title">Automatisk omstart</string>
+    <string name="channel_beta">Beta</string>
+    <string name="changelog_unavailable">Utilgjengelig</string>
+    <string name="changelog_summary">Trykk for å vise</string>
+    <string name="changelog_title">Endringslogg</string>
+</resources>
