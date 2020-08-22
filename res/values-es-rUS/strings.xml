@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_for_updates_summary">Toque para buscar actualizaciones lo antes posible</string>
+    <string name="idle_reboot_summary">Reiniciar automáticamente una vez que el dispositivo esté inactivo después de instalar exitosamenteuna actualización</string>
+    <string name="battery_not_low_summary">Solo descargue / instale actualizaciones cuando la batería esté por encima del nivel de advertencia</string>
+    <string name="check_for_updates_title">Buscar actualizaciones</string>
+    <string name="idle_reboot_title">Reinicio automático</string>
+    <string name="battery_not_low_title">Requerir batería por encima del nivel de advertencia</string>
+    <string name="network_type_unmetered">No medido</string>
+    <string name="network_type_not_roaming">No itinerante</string>
+    <string name="network_type_any">Cualquiera</string>
+    <string name="network_type_title">Redes permitidas</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Estable</string>
+    <string name="settings_title">Configuraciones de actualización del sistema</string>
+    <string name="notification_reboot_action_legacy">Reiniciar e instalar</string>
+    <string name="notification_reboot_action">Reiniciar</string>
+    <string name="notification_text_legacy">Por favor instale la última versión del sistema operativo.</string>
+    <string name="notification_text">Por favor reinicie el dispositivo para ejecutar la última versión del sistema operativo.</string>
+    <string name="notification_title_legacy">Actualización descargada exitosamente</string>
+    <string name="notification_title">Actualización instalada exitosamente</string>
+    <string name="notification_install_title">Instalando actualización del sistema</string>
+    <string name="notification_download_title">Descargando actualización del sistema</string>
+    <string name="notification_channel_progress">Progreso de Actualización</string>
+    <string name="notification_channel">Aviso de Reinicio</string>
+    <string name="app_name">Cliente de Actualización Perfecto</string>
+    <string name="changelog_unavailable">Registro de cambios no disponible</string>
+    <string name="changelog_summary">Toque para ver el registro de cambios</string>
+    <string name="changelog_title">Registro de cambios</string>
+</resources>

@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Tippen Sie auf, um so schnell wie möglich nach Aktualisierungen zu suchen</string>
+    <string name="check_for_updates_title">Nach Aktualisierungen prüfen</string>
+    <string name="idle_reboot_summary">Automatischer Neustart, wenn das Gerät nach erfolgreicher Installation einer Aktualisierung im Leerlauf ist</string>
+    <string name="idle_reboot_title">Automatischer Neustart</string>
+    <string name="battery_not_low_summary">Nur Aktualisierungen herunterladen / installieren, wenn der Akku über der Warnstufe liegt</string>
+    <string name="network_type_any">Irgendein</string>
+    <string name="network_type_title">Erlaubte Netzwerke</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_title">Freigabekanal</string>
+    <string name="settings_title">Systemaktualisierungseinstellungen</string>
+    <string name="notification_reboot_action_legacy">Neu starten und installieren</string>
+    <string name="notification_reboot_action">Neu starten</string>
+    <string name="notification_text_legacy">Installieren Sie die neueste Betriebssystemversion.</string>
+    <string name="notification_text">Bitte starten Sie das Gerät neu, um die neueste Betriebssystemversion auszuführen.</string>
+    <string name="notification_title_legacy">Aktualisierung erfolgreich heruntergeladen</string>
+    <string name="notification_title">Aktualisierung erfolgreich installiert</string>
+    <string name="changelog_unavailable">Änderungsprotokoll nicht verfügbar</string>
+    <string name="changelog_summary">Tippen Sie hier, um das Änderungsprotokoll anzuzeigen</string>
+    <string name="changelog_title">Änderungsprotokoll</string>
+</resources>

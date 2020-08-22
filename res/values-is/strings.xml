@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_unavailable">Breytingaskrá er ekki aðgengileg</string>
+    <string name="changelog_summary">Snertu til að skoða breytingaskrá</string>
+    <string name="changelog_title">Breytingaskrá</string>
+    <string name="app_name">Sjálfvirkt uppfærsluforrit</string>
+    <string name="check_for_updates_summary">Snertu til að athuga hvort uppfærsla sé tiltæl við fyrsta tækifæri</string>
+    <string name="check_for_updates_title">Athuga hvort uppfærsla sé tiltæk</string>
+    <string name="idle_reboot_summary">Endurræsa þegar tækið hefur lokið uppsetningu uppfærslunnar</string>
+    <string name="idle_reboot_title">Sjálfvirk endurræsing</string>
+    <string name="battery_not_low_summary">Aðeins niðurhala / setja upp þegar hleðsla er meiri en sem nemur viðvörunarstöðu</string>
+    <string name="battery_not_low_title">Krefjast meiri hleðslu en sem nemur viðvörunarstöðu</string>
+    <string name="network_type_unmetered">Ótakmarkað</string>
+    <string name="network_type_not_roaming">Ekki reiki</string>
+    <string name="network_type_any">Öll</string>
+    <string name="network_type_title">Leyfð net</string>
+    <string name="channel_beta">Prufu</string>
+    <string name="channel_stable">Stöðug</string>
+    <string name="channel_title">Úgáfa</string>
+    <string name="settings_title">Stillingar kerfisuppfærslu</string>
+    <string name="notification_text_legacy">Vinsamlega settu upp nýjustu útgáfu stýrikerfisins.</string>
+    <string name="notification_text">Gerðu svo vel að endurræsa til að keyra nýjastu stýrikerfisútgáfu.</string>
+    <string name="notification_title_legacy">Uppfærsla sótt með ágætum árangri</string>
+    <string name="notification_title">Uppfærslan tókst prýðilega</string>
+    <string name="notification_install_title">Innset kerfisuppfærslu</string>
+    <string name="notification_download_title">Sæki kerfisuppfærslu</string>
+    <string name="notification_channel_progress">Framgangur uppfærslu</string>
+</resources>

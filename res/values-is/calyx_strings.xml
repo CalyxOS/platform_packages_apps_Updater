@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_unavailable">Breytingaskrá er ekki aðgengileg</string>
+    <string name="changelog_summary">Snertu til að skoða breytingaskrá</string>
+    <string name="changelog_title">Breytingaskrá</string>
+</resources>

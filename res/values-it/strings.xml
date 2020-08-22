@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_for_updates_summary">Tocca per controllare gli aggiornamenti appena possibile</string>
+    <string name="check_for_updates_title">Controlla per aggiornamenti</string>
+    <string name="idle_reboot_summary">Riavvia automaticamente una volta che il dispositivo è inattivo dopo aver installato correttamente un aggiornamento</string>
+    <string name="idle_reboot_title">Riavvio automatico</string>
+    <string name="battery_not_low_summary">Scarica / installa aggiornamenti solo quando la batteria è al di sopra del livello di avviso</string>
+    <string name="battery_not_low_title">Richiedi la batteria al di sopra del livello di avviso</string>
+    <string name="network_type_not_roaming">Non roaming</string>
+    <string name="network_type_any">Qualsiasi</string>
+    <string name="network_type_title">Reti consentite</string>
+    <string name="channel_stable">Stabile</string>
+    <string name="settings_title">Impostazioni di aggiornamento del sistema</string>
+    <string name="notification_reboot_action_legacy">Riavvia e installa</string>
+    <string name="notification_reboot_action">Riavvia</string>
+    <string name="notification_text_legacy">Installa l\'ultima versione del sistema operativo.</string>
+    <string name="notification_text">Riavvia il dispositivo per utilizzare l\'ultima versione del sistema operativo.</string>
+    <string name="notification_title_legacy">Aggiornamento scaricato correttamente</string>
+    <string name="notification_title">Aggiornamento installato correttamente</string>
+    <string name="notification_install_title">Installando l\'aggiornamento di sistema</string>
+    <string name="notification_download_title">Scaricando l\'aggiornamento di sistema</string>
+    <string name="changelog_unavailable">Changelog non disponibile</string>
+    <string name="notification_channel_progress">Progresso di aggiornamento</string>
+    <string name="changelog_summary">Tocca per visualizzare il changelog</string>
+</resources>

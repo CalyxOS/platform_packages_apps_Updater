@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_unavailable">Changelog non disponibile</string>
+    <string name="changelog_summary">Tocca per visualizzare il changelog</string>
+</resources>

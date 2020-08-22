@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Änderungsprotokoll nicht verfügbar</string>
+    <string name="changelog_summary">Tippen Sie hier, um das Änderungsprotokoll anzuzeigen</string>
+    <string name="changelog_title">Änderungsprotokoll</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_unavailable">更新日志不可用</string>
+    <string name="changelog_summary">点击以查看更新日志</string>
+    <string name="changelog_title">更新日志</string>
+</resources>

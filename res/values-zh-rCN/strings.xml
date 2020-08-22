@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_type_any">任何</string>
+    <string name="network_type_title">准许的网络</string>
+    <string name="channel_beta">测试版</string>
+    <string name="channel_stable">稳定</string>
+    <string name="settings_title">系统更新设定</string>
+    <string name="notification_reboot_action_legacy">重启并安装</string>
+    <string name="notification_reboot_action">重启</string>
+    <string name="notification_text_legacy">请安装最新的OS版本。</string>
+    <string name="notification_text">请重启设备以使用最新的OS版本。</string>
+    <string name="notification_title_legacy">更新下载成功</string>
+    <string name="notification_title">更新安装成功</string>
+    <string name="notification_install_title">正在安装系统更新</string>
+    <string name="notification_download_title">正在下载系统更新</string>
+    <string name="notification_channel_progress">更新进程</string>
+    <string name="changelog_unavailable">更新日志不可用</string>
+    <string name="notification_channel">重启提示框</string>
+    <string name="changelog_summary">点击以查看更新日志</string>
+    <string name="app_name">无缝更新客户</string>
+    <string name="changelog_title">更新日志</string>
+    <string name="check_for_updates_summary">点击以检查更新</string>
+    <string name="check_for_updates_title">检查更新</string>
+    <string name="idle_reboot_summary">成功安装更新后设备空闲时自动重启</string>
+    <string name="idle_reboot_title">自动重启</string>
+    <string name="battery_not_low_summary">仅在电量超过警告线时才下载和安装更新</string>
+    <string name="battery_not_low_title">需要电量超过警告线</string>
+    <string name="network_type_unmetered">数据流量时禁用</string>
+    <string name="network_type_not_roaming">漫游时禁用</string>
+    <string name="channel_title">更新频道</string>
+</resources>
