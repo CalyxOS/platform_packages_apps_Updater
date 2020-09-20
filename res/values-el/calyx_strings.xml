@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_unavailable">Το αρχείο αλλαγών δεν είναι διαθέσιμο</string>
+    <string name="changelog_unavailable">Το ιστορικό αλλαγών δεν είναι διαθέσιμο</string>
     <string name="changelog_summary">Πατήστε για να δείτε το ιστορικό αλλαγών</string>
     <string name="changelog_title">Ιστορικό αλλαγών</string>
 </resources>
