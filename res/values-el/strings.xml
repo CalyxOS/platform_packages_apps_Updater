@@ -3,4 +3,5 @@
     <string name="changelog_unavailable">Το αρχείο αλλαγών δεν είναι διαθέσιμο</string>
     <string name="changelog_summary">Πατήστε για να δείτε το ιστορικό αλλαγών</string>
     <string name="changelog_title">Ιστορικό αλλαγών</string>
+    <string name="app_name">Εφαρμογή απρόσκοπτων ενημερώσεων</string>
 </resources>
