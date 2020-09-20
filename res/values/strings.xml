@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Seamless Update Client</string>
-    <string name="notification_channel">Reboot Prompt</string>
-    <string name="notification_channel_progress">Update Progress</string>
+    <string name="app_name">System updater</string>
+    <string name="notification_channel">Reboot prompt</string>
+    <string name="notification_channel_progress">Update progress</string>
     <string name="notification_download_title">Downloading system update</string>
     <string name="notification_install_title">Installing system update</string>
     <string name="notification_title">Update successfully installed</string>
