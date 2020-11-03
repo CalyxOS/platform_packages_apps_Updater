@@ -13,11 +13,11 @@
     <string name="notification_title">更新安装成功</string>
     <string name="notification_install_title">正在安装系统更新</string>
     <string name="notification_download_title">正在下载系统更新</string>
-    <string name="notification_channel_progress">更新进程</string>
+    <string name="notification_channel_progress">更新进度</string>
     <string name="changelog_unavailable">更新日志不可用</string>
     <string name="notification_channel">重启提示框</string>
     <string name="changelog_summary">点击以查看更新日志</string>
-    <string name="app_name">无缝更新客户</string>
+    <string name="app_name">系统更新器</string>
     <string name="changelog_title">更新日志</string>
     <string name="check_for_updates_summary">点击以检查更新</string>
     <string name="check_for_updates_title">检查更新</string>

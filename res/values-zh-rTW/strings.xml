@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_title">查看更新</string>
+    <string name="idle_reboot_title">自動重新開機</string>
+    <string name="network_type_any">任何</string>
+    <string name="channel_beta">測試</string>
+    <string name="channel_stable">穩定</string>
+    <string name="notification_reboot_action">重新啟動</string>
+    <string name="notification_text_legacy">請安裝最新的系統。</string>
+    <string name="notification_text">請重新啟動裝置來執行最新的系統。</string>
+    <string name="notification_title_legacy">更新已成功地被下載</string>
+    <string name="notification_title">更新已成功地安裝</string>
+    <string name="notification_install_title">安裝系統更新中</string>
+    <string name="notification_download_title">下載系統更新中</string>
+    <string name="notification_channel_progress">更新進度</string>
+    <string name="notification_channel">重啟提示</string>
+    <string name="app_name">系統更新</string>
+</resources>

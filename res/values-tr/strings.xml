@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Güncellemeleri mümkün olan en kısa zamanda denetlemek için dokunun</string>
+    <string name="check_for_updates_title">Güncellemeleri denetle</string>
+    <string name="idle_reboot_summary">Güncellemeyi başarıyla kurduktan sonra aygıt boşta kaldığında otomatik olarak yeniden başlat</string>
+    <string name="idle_reboot_title">Otomatik yeniden başlat</string>
+    <string name="battery_not_low_summary">Güncellemeleri yalnızca pil uyarı seviyesinin üzerindeyken indir / kur</string>
+    <string name="battery_not_low_title">Uyarı seviyesinin üzerinde pil gerektir</string>
+    <string name="network_type_unmetered">Ölçülmeyen</string>
+    <string name="network_type_not_roaming">Dolaşımda değil</string>
+    <string name="network_type_any">Hepsi</string>
+    <string name="network_type_title">İzin verilen ağlar</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Kararlı</string>
+    <string name="channel_title">Yayın kanalı</string>
+    <string name="settings_title">Sistem güncelleme ayarları</string>
+    <string name="notification_reboot_action_legacy">Yeniden başlat ve kur</string>
+    <string name="notification_reboot_action">Yeniden başlat</string>
+    <string name="notification_text_legacy">Lütfen en son işletim sistemi sürümünü kurun.</string>
+    <string name="notification_text">En son işletim sistemi sürümünü çalıştırmak için lütfen aygıtı yeniden başlatın.</string>
+    <string name="notification_title_legacy">Güncelleme başarıyla indirildi</string>
+    <string name="notification_title">Güncelleme başarıyla kuruldu</string>
+    <string name="notification_install_title">Sistem güncellemesi kuruluyor</string>
+    <string name="notification_download_title">Sistem güncellemesi indiriliyor</string>
+    <string name="notification_channel_progress">Güncelleme ilerlemesi</string>
+    <string name="notification_channel">Yeniden başlatma istemi</string>
+    <string name="app_name">Sistem güncelleyici</string>
+</resources>

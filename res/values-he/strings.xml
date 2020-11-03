@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">יש לגעת כדי לחפש עדכונים כמה שיותר מהר</string>
+    <string name="check_for_updates_title">בדיקת עדכונים</string>
+    <string name="idle_reboot_summary">להפעיל מחדש אוטומטית כשהמכשיר בהמתנה לאחר עדכון התקנה מוצלח</string>
+    <string name="idle_reboot_title">הפעלה אוטומטית מחדש</string>
+    <string name="battery_not_low_summary">להוריד / להתקין עדכונים רק כאשר הסוללה טעונה מעבר לרמת האזהרה</string>
+    <string name="battery_not_low_title">לדרוש שהסוללה תהיה מעבר לרמת אזהרה</string>
+    <string name="network_type_unmetered">לא מוגבלות</string>
+    <string name="network_type_not_roaming">לא בנדידה</string>
+    <string name="network_type_any">כולן</string>
+    <string name="network_type_title">רשתות מורשות</string>
+    <string name="channel_beta">בטא</string>
+    <string name="channel_stable">יציב</string>
+    <string name="channel_title">ערוץ עדכונים</string>
+    <string name="settings_title">הגדרות עדכון מערכת</string>
+    <string name="notification_reboot_action_legacy">הפעלה מחדש והתקנה</string>
+    <string name="notification_reboot_action">הפעלה מחדש</string>
+    <string name="notification_text_legacy">נא להתקין את המהדורה העדכניות ביותר של מערכת ההפעלה.</string>
+    <string name="notification_text">נא להפעיל את המכשיר מחדש כדי להריץ את המהדורה העדכנית ביותר של מערכת ההפעלה.</string>
+    <string name="notification_title_legacy">העדכון התקבל בהצלחה</string>
+    <string name="notification_title">העדכון הותקן בהצלחה</string>
+    <string name="notification_install_title">עדכון המערכת מותקן</string>
+    <string name="notification_download_title">עדכון המערכת מתקבל</string>
+    <string name="notification_channel_progress">תהליך עדכון</string>
+    <string name="notification_channel">בקשת הפעלה מחדש</string>
+    <string name="app_name">מעדכן המערכת</string>
+</resources>

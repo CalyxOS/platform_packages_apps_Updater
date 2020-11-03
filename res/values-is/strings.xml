@@ -3,7 +3,7 @@
     <string name="changelog_unavailable">Breytingaskrá er ekki aðgengileg</string>
     <string name="changelog_summary">Snertu til að skoða breytingaskrá</string>
     <string name="changelog_title">Breytingaskrá</string>
-    <string name="app_name">Sjálfvirkt uppfærsluforrit</string>
+    <string name="app_name">Kerfisuppfærsla</string>
     <string name="check_for_updates_summary">Snertu til að athuga hvort uppfærsla sé tiltæl við fyrsta tækifæri</string>
     <string name="check_for_updates_title">Athuga hvort uppfærsla sé tiltæk</string>
     <string name="idle_reboot_summary">Endurræsa þegar tækið hefur lokið uppsetningu uppfærslunnar</string>
@@ -24,5 +24,8 @@
     <string name="notification_title">Uppfærslan tókst prýðilega</string>
     <string name="notification_install_title">Innset kerfisuppfærslu</string>
     <string name="notification_download_title">Sæki kerfisuppfærslu</string>
-    <string name="notification_channel_progress">Framgangur uppfærslu</string>
+    <string name="notification_channel_progress">Framvinda uppfærslu</string>
+    <string name="notification_reboot_action_legacy">Endurræsa og setja upp</string>
+    <string name="notification_reboot_action">Endurræsing</string>
+    <string name="notification_channel">Kvaðning um endurræsingu</string>
 </resources>

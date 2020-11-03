@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Dodirni za provjeru novih izdanja što prije moguće</string>
+    <string name="notification_title_legacy">Novo izdanje uspješno preuzeto</string>
+    <string name="notification_title">Novo izdanje uspješno instalirano</string>
+    <string name="notification_install_title">Instaliranje novog izdanja sustava</string>
+    <string name="notification_download_title">Preuzimanje novog izdanja sustava</string>
+    <string name="check_for_updates_title">Potraži nova izdanja</string>
+    <string name="battery_not_low_summary">Preuzmi/instaliraj nova izdanja samo kad je baterija iznad razine upozorenja</string>
+    <string name="idle_reboot_summary">Automatski ponovo pokreni sustav kad uređaj miruje nakon uspješno instaliranog novog izdanja</string>
+    <string name="idle_reboot_title">Automatsko ponovno pokretanje</string>
+    <string name="battery_not_low_title">Zahtijevaj bateriju iznad razine upozorenja</string>
+    <string name="network_type_unmetered">Neograničena</string>
+    <string name="network_type_not_roaming">Bez roaminga</string>
+    <string name="network_type_any">Bilo koja</string>
+    <string name="network_type_title">Dozvoljene mreže</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Stabilna</string>
+    <string name="channel_title">Kanal izdanja</string>
+    <string name="settings_title">Postavke aktualiziranja sustava</string>
+    <string name="notification_reboot_action_legacy">Ponovo pokreni i instaliraj</string>
+    <string name="notification_reboot_action">Ponovo pokreni</string>
+    <string name="notification_text_legacy">Instaliraj najnovije izdanje OS-a.</string>
+    <string name="notification_text">Za pokretanje najnovijeg izdanja OS-a ponovo pokreni uređaj.</string>
+    <string name="notification_channel_progress">Napredak aktualiziranja</string>
+    <string name="notification_channel">Upit za ponovno pokretanje</string>
+    <string name="app_name">Aktualiziranje sustava</string>
+</resources>

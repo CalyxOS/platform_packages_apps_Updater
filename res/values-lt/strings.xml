@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_title_legacy">Atnaujinimas sėkmingai parsiųstas</string>
+    <string name="notification_title">Atnaujinimas sėkmingai instaliuotas</string>
+    <string name="notification_install_title">Instaliuojamas sistemos atnaujinimas</string>
+    <string name="notification_download_title">Parsiunčiamas sistemos atnaujinimas</string>
+    <string name="notification_channel_progress">Atnaujinimo eiga</string>
+    <string name="app_name">Sistemos atnaujintojas</string>
+</resources>

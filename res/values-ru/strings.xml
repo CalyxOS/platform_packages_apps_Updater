@@ -27,5 +27,5 @@
     <string name="channel_title">Канал выпуска</string>
     <string name="notification_channel_progress">Прогресс обновления</string>
     <string name="notification_channel">Быстрая перезагрузка</string>
-    <string name="app_name">Клиент бесшовного обновления</string>
+    <string name="app_name">Обновление системы</string>
 </resources>

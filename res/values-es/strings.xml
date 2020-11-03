@@ -27,5 +27,5 @@
     <string name="notification_install_title">Instalando actualización de sistema</string>
     <string name="notification_download_title">Descargando actualización del sistema</string>
     <string name="notification_channel_progress">Progreso de la actualización</string>
-    <string name="app_name">Cliente de actualización transparente</string>
+    <string name="app_name">Actualizador</string>
 </resources>
