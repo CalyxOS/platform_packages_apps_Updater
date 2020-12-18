@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_summary">Appuyez pour afficher le journal des modifications</string>
     <string name="check_for_updates_summary">Appuyez pour vérifier les mises à jour dès que possible</string>
     <string name="check_for_updates_title">Vérifier les mises à jour</string>
     <string name="idle_reboot_summary">Redémarrage automatique lorsque l’appareil est inactif après l’installation d’une mise à jour</string>
@@ -26,6 +25,5 @@
     <string name="notification_channel_progress">Progression de la mise à jour</string>
     <string name="notification_channel">Invite de redémarrage</string>
     <string name="app_name">Mise à jour du système</string>
-    <string name="changelog_unavailable">Journal des modifications indisponible</string>
     <string name="changelog_title">Journal des modifications</string>
 </resources>

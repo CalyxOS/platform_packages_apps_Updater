@@ -16,9 +16,7 @@
     <string name="notification_text">Bitte starten Sie das Gerät neu, um die neueste Betriebssystemversion auszuführen.</string>
     <string name="notification_title_legacy">Aktualisierung erfolgreich heruntergeladen</string>
     <string name="notification_title">Aktualisierung erfolgreich installiert</string>
-    <string name="changelog_unavailable">Änderungsprotokoll nicht verfügbar</string>
     <string name="changelog_summary">Tippen Sie hier, um das Änderungsprotokoll anzuzeigen</string>
-    <string name="changelog_title">Änderungsprotokoll</string>
     <string name="network_type_unmetered">Nicht gemessen</string>
     <string name="battery_not_low_title">Akku über Warnstufe erforderlich</string>
     <string name="network_type_not_roaming">Kein Roaming</string>

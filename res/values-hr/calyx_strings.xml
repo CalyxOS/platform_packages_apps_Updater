@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_title">Dnevnik promjena</string>
+    <string name="changelog_unavailable">Dnevnik promjena nije dostupan</string>
+    <string name="changelog_summary">Dodirni za prikaz dnevnika promjena</string>
+</resources>

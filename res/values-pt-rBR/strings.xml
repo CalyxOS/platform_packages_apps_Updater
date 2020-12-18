@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_unavailable">Registro de alterações indisponível</string>
-    <string name="changelog_summary">Toque para ver o registro de alterações</string>
-    <string name="changelog_title">Registro de alterações</string>
     <string name="check_for_updates_summary">Toque para verificar se há atualizações o mais rápido possível</string>
     <string name="check_for_updates_title">Verificar por atualizações</string>
     <string name="idle_reboot_summary">Reiniciar automaticamente assim que o dispositivo estiver ocioso após instalar com sucesso uma atualização</string>
@@ -26,6 +23,6 @@
     <string name="notification_install_title">Instalando atualização do sistema</string>
     <string name="notification_download_title">Baixando atualização do sistema</string>
     <string name="notification_channel_progress">Progresso da atualização</string>
-    <string name="notification_channel">Prompt de reinício</string>
-    <string name="app_name">Cliente de Atualização Contínua</string>
+    <string name="notification_channel">Reinicialização imediata</string>
+    <string name="app_name">Atualização do sistema</string>
 </resources>

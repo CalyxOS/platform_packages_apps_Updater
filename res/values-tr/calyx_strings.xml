@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Değişiklik günlüğü yok</string>
+    <string name="changelog_summary">Değişiklik günlüğünü görüntülemek için dokunun</string>
+    <string name="changelog_title">Değişiklik günlüğü</string>
+</resources>
