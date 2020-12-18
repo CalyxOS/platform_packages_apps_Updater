@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Dnevnik izmena je nedostupan</string>
+    <string name="changelog_summary">Dodirnite da biste videli dnevnik izmena</string>
+    <string name="changelog_title">Dnevnik izmena</string>
+</resources>
