@@ -25,5 +25,4 @@
     <string name="app_name">Sømløs oppdateringsklient</string>
     <string name="idle_reboot_title">Automatisk omstart</string>
     <string name="channel_beta">Beta</string>
-    <string name="changelog_summary">Trykk for å vise</string>
 </resources>

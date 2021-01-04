@@ -9,7 +9,6 @@
     <string name="check_for_updates_summary">Toque para buscar actualizaciones lo antes posible</string>
     <string name="check_for_updates_title">Buscar actualizaciones</string>
     <string name="idle_reboot_summary">Reiniciar automáticamente una vez que el dispositivo está inactivo después de instalar correctamente una actualización</string>
-    <string name="changelog_title">Registro de cambios</string>
     <string name="idle_reboot_title">Reinicio automático</string>
     <string name="battery_not_low_summary">Descargue / instale actualizaciones solo cuando la batería esté por encima del nivel de advertencia</string>
     <string name="battery_not_low_title">Requiere batería por encima del nivel de advertencia</string>

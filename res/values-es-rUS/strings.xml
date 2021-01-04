@@ -24,5 +24,4 @@
     <string name="notification_channel_progress">Progreso de Actualización</string>
     <string name="notification_channel">Aviso de Reinicio</string>
     <string name="app_name">Cliente de Actualización Perfecto</string>
-    <string name="changelog_summary">Toque para ver el registro de cambios</string>
 </resources>
