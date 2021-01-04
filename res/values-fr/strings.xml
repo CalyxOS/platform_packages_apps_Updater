@@ -25,5 +25,4 @@
     <string name="notification_channel_progress">Progression de la mise à jour</string>
     <string name="notification_channel">Invite de redémarrage</string>
     <string name="app_name">Mise à jour du système</string>
-    <string name="changelog_title">Journal des modifications</string>
 </resources>

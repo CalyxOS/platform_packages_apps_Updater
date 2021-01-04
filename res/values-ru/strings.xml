@@ -12,7 +12,6 @@
     <string name="notification_title">Обновление успешно установлено</string>
     <string name="notification_install_title">Установка системного обновления</string>
     <string name="notification_download_title">Загрузка системного обновления</string>
-    <string name="changelog_summary">Нажмите, чтобы просмотреть список изменений</string>
     <string name="check_for_updates_summary">Нажмите, чтобы проверить обновления как можно скорее</string>
     <string name="idle_reboot_summary">Автоматическая перезагрузка, когда устройство простаивает после успешной установки обновления</string>
     <string name="battery_not_low_summary">Загружайте / устанавливайте обновления только тогда, когда уровень заряда батареи превышает уровень предупреждения</string>
