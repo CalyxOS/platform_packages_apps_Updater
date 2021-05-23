@@ -19,5 +19,10 @@
     <string name="notification_title">Aggiornamento installato correttamente</string>
     <string name="notification_install_title">Installando l\'aggiornamento di sistema</string>
     <string name="notification_download_title">Scaricando l\'aggiornamento di sistema</string>
-    <string name="notification_channel_progress">Progresso di aggiornamento</string>
+    <string name="notification_channel_progress">Progresso dell\'aggiornamento</string>
+    <string name="network_type_unmetered">Non a consumo</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_title">Canale di rilascio</string>
+    <string name="notification_channel">Richiesta di riavvio</string>
+    <string name="app_name">Programma di aggiornamento di sistema</string>
 </resources>

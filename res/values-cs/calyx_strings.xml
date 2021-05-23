@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Seznam změn není dostupný</string>
+    <string name="changelog_summary">Klepnutím zobrazíte seznam změn</string>
+    <string name="changelog_title">Seznam změn</string>
+</resources>

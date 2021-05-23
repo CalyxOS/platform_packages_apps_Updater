@@ -2,4 +2,5 @@
 <resources>
     <string name="changelog_unavailable">Changelog non disponibile</string>
     <string name="changelog_summary">Tocca per visualizzare il changelog</string>
+    <string name="changelog_title">Changelog</string>
 </resources>

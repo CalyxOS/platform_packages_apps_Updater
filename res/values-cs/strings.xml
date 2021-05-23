@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Klepnutím zkontrolujete aktualizace co nejdříve</string>
+    <string name="check_for_updates_title">Zkontrolovat aktualizace</string>
+    <string name="idle_reboot_summary">Po úspěšné instalaci aktualizace se zařízení restartuje v době nečinnosti</string>
+    <string name="idle_reboot_title">Automatické restartování</string>
+    <string name="battery_not_low_summary">Stahovat / instalovat aktualizace pouze, když je baterie nad úrovní varování</string>
+    <string name="network_type_not_roaming">Bez roamingu</string>
+    <string name="network_type_any">Jakýkoliv</string>
+    <string name="network_type_title">Povolené sítě</string>
+    <string name="channel_beta">Beta verze</string>
+    <string name="channel_stable">Stabilní verze</string>
+    <string name="settings_title">Nastavení aktualizace systému</string>
+    <string name="notification_reboot_action_legacy">Restartovat a nainstalovat</string>
+    <string name="notification_reboot_action">Restartovat</string>
+    <string name="notification_text_legacy">Nainstalujte prosím nejnovější aktualizaci operačního systému.</string>
+    <string name="notification_text">Restartujte prosím zařízení pro spuštění nejnovější aktualizace.</string>
+    <string name="notification_title_legacy">Aktualizace byla úspěšně stažena</string>
+    <string name="notification_title">Aktualizace byla úspěšně nainstalována</string>
+    <string name="notification_install_title">Instalace aktualizace systému</string>
+    <string name="notification_download_title">Stahování aktualizace systému</string>
+    <string name="notification_channel_progress">Průběh aktualizace</string>
+    <string name="notification_channel">Výzva k restartování</string>
+    <string name="app_name">Aktualizátor systému</string>
+</resources>

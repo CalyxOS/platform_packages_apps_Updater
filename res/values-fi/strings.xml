@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Napauta tarkistaaksesi päivitykset heti</string>
+    <string name="check_for_updates_title">Tarkista päivitykset</string>
+    <string name="idle_reboot_summary">Uudelleenkäynnistä automaattisesti kun laite on onnistuneen päivityksen jälkeen toimettomana</string>
+    <string name="idle_reboot_title">Automaattinen uudelleenkäynnistys</string>
+    <string name="battery_not_low_summary">Lataa / asenna päivityksiä ainoastaan kun akun varaustaso on yli varoitustason</string>
+    <string name="battery_not_low_title">Vaadi akun olevan yli varoitustason</string>
+    <string name="network_type_unmetered">Rajaton</string>
+    <string name="network_type_not_roaming">Ei roaming</string>
+    <string name="network_type_any">Kaikki</string>
+    <string name="network_type_title">Sallitut verkot</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Vakaa</string>
+    <string name="notification_text">Käynnistä laite uudelleen, jotta voit suorittaa uusimman käyttöjärjestelmän julkaisun.</string>
+    <string name="notification_text_legacy">Asenna uusin käyttöjärjestelmän julkaisu.</string>
+    <string name="channel_title">Jullkaisukanava</string>
+    <string name="settings_title">Järjestelmäpäivitysasetukset</string>
+    <string name="notification_reboot_action_legacy">Käynnistä uudelleen ja asenna</string>
+    <string name="notification_reboot_action">Käynnistä uudelleen</string>
+    <string name="notification_title_legacy">Päivitys ladattu onnistuneesti</string>
+    <string name="notification_title">Päivitys asennettiin onnistuneesti</string>
+    <string name="notification_install_title">Asennetaan järjestelmäpäivitystä</string>
+    <string name="notification_download_title">Ladataan järjestelmäpäivitystä</string>
+    <string name="notification_channel_progress">Päivityksen edistyminen</string>
+    <string name="notification_channel">Käynnistä laite uudelleen</string>
+    <string name="app_name">Järjestelmäpäivittäjä</string>
+</resources>

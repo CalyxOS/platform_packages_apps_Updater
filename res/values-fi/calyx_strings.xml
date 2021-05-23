@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Muutoshistoriaa ei saatavilla</string>
+    <string name="changelog_summary">Napauta nähdäksesi muutoshistorian</string>
+    <string name="changelog_title">Muutoshistoria</string>
+</resources>
