@@ -24,5 +24,5 @@
     <string name="notification_download_title">Baixando atualização do sistema</string>
     <string name="notification_channel_progress">Progresso da atualização</string>
     <string name="notification_channel">Reinicialização imediata</string>
-    <string name="app_name">Atualização do sistema</string>
+    <string name="app_name">Atualizador do sistema</string>
 </resources>
