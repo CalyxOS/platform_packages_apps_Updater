@@ -6,4 +6,23 @@
     <string name="notification_download_title">Parsiunčiamas sistemos atnaujinimas</string>
     <string name="notification_channel_progress">Atnaujinimo eiga</string>
     <string name="app_name">Sistemos atnaujintojas</string>
+    <string name="check_for_updates_summary">Palieskite, kad kuo greičiau patikrintumėte, ar nėra atnaujinimų</string>
+    <string name="check_for_updates_title">Tikrinti ar yra atnaujinimų</string>
+    <string name="idle_reboot_summary">Sėkmingai įdiegus atnaujinimą, automatiškai paleisti iš naujo, kai įrenginys bus nenaudojamas</string>
+    <string name="idle_reboot_title">Automatinis perkrovimas</string>
+    <string name="battery_not_low_summary">Atsisiųsti / įdiegti naujinimus tik tada, kai baterijos įkrovimas yra virš įspėjamojo lygio</string>
+    <string name="battery_not_low_title">Reikalauti baterijos įkrovimas yra virš įspėjamojo lygio</string>
+    <string name="network_type_unmetered">Neapskaitomas</string>
+    <string name="network_type_not_roaming">Ne tarptinklinis</string>
+    <string name="network_type_any">Visi</string>
+    <string name="network_type_title">Leidžiami tinklai</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Stabili</string>
+    <string name="channel_title">Versijų kanalas</string>
+    <string name="settings_title">Sistemos atnaujinimo nustatymai</string>
+    <string name="notification_reboot_action_legacy">Perkrauti ir įdiegti</string>
+    <string name="notification_reboot_action">Perkrauti</string>
+    <string name="notification_text_legacy">Įdiekite naujausią OS versiją.</string>
+    <string name="notification_text">Perkraukite įrenginį, kad būtų paleista naujausia OS versija.</string>
+    <string name="notification_channel">Paleisti iš naujo</string>
 </resources>
