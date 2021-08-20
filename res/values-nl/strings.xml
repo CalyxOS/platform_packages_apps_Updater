@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Tik om zo snel mogelijk te controleren op updates</string>
+    <string name="check_for_updates_title">Zoek naar updates</string>
+    <string name="idle_reboot_summary">Automatisch herstarten zodra het toestel niet wordt gebruikt na het installeren van een update</string>
+    <string name="idle_reboot_title">Automatische herstart</string>
+    <string name="battery_not_low_summary">Download/installeer alleen updates wanneer de batterij boven het waarschuwingsniveau is</string>
+    <string name="battery_not_low_title">Batterij vereist boven waarschuwingsniveau</string>
+    <string name="network_type_unmetered">Ongelimiteerd</string>
+    <string name="network_type_not_roaming">Geen gebruik van roaming</string>
+    <string name="network_type_any">Elke</string>
+    <string name="network_type_title">Toegestane netwerken</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Stabiel</string>
+    <string name="channel_title">Release kanaal</string>
+    <string name="settings_title">Instellingen systeemupdate</string>
+    <string name="notification_reboot_action_legacy">Herstart en installeer</string>
+    <string name="notification_reboot_action">Herstart</string>
+    <string name="notification_text_legacy">Installeer de laatste versie van het besturingssysteem.</string>
+    <string name="notification_text">Start het apparaat opnieuw op om de laatste versie van het besturingssysteem te kunnen gebruiken.</string>
+    <string name="notification_title_legacy">Update succesvol geïnstalleerd</string>
+    <string name="notification_title">Update succesvol geïnstalleerd</string>
+    <string name="notification_install_title">Systeemupdate installeren</string>
+    <string name="notification_download_title">Systeemupdate downloaden</string>
+    <string name="notification_channel_progress">Update voortgang</string>
+    <string name="notification_channel">Herstart prompt</string>
+    <string name="app_name">Systeem updater</string>
+</resources>

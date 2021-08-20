@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Wijzigingslogboek niet beschikbaar</string>
+    <string name="changelog_summary">Tik om het wijzigingslogboek te bekijken</string>
+    <string name="changelog_title">Wijzigingslog</string>
+</resources>

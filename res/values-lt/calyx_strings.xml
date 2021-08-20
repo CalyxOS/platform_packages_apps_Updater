@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Pakeitimų žurnalas nepasiekiamas</string>
+    <string name="changelog_summary">Palieskite, kad peržiūrėtumėte pakeitimų žurnalą</string>
+    <string name="changelog_title">Pakeitimų žurnalas</string>
+</resources>
