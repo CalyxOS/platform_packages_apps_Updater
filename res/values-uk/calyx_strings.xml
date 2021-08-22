@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Список змін недоступний</string>
+    <string name="changelog_summary">Натисніть, щоб переглянути список змін</string>
+    <string name="changelog_title">Список змін</string>
+</resources>

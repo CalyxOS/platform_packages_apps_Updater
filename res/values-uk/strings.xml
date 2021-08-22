@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Натисніть, щоб перевірити наявність оновлень якомога швидше</string>
+    <string name="check_for_updates_title">Перевірити наявність оновлень</string>
+    <string name="idle_reboot_summary">Самоперезавантаження, коли пристрій простоює після успішного встановлення оновлення</string>
+    <string name="idle_reboot_title">Самоперезавантаження</string>
+    <string name="battery_not_low_summary">Завантажуйте/встановлюйте оновлення тільки тоді, коли рівень заряду батареї перевищує рівень попередження</string>
+    <string name="battery_not_low_title">Вимагати батарею вище рівня попередження</string>
+    <string name="network_type_unmetered">Безлімітна</string>
+    <string name="network_type_not_roaming">Не в роумінгові</string>
+    <string name="network_type_any">Будь-яка</string>
+    <string name="network_type_title">Дозволені мережі</string>
+    <string name="channel_beta">Бета</string>
+    <string name="channel_stable">Сталий</string>
+    <string name="channel_title">Канал випуску</string>
+    <string name="settings_title">Налаштування оновлення системи</string>
+    <string name="notification_reboot_action_legacy">Перезавантажити та встановити</string>
+    <string name="notification_reboot_action">Перезавантажити</string>
+    <string name="notification_text_legacy">Будь ласка, встановіть останню версію ОС.</string>
+    <string name="notification_text">Будь ласка, перезавантажте пристрій, щоб запустити останню версію ОС.</string>
+    <string name="notification_title_legacy">Оновлення успішно завантажено</string>
+    <string name="notification_title">Оновлення успішно встановлено</string>
+    <string name="notification_install_title">Установлення системного оновлення</string>
+    <string name="notification_download_title">Завантаження оновлення системи</string>
+    <string name="notification_channel_progress">Перебіг оновлення</string>
+    <string name="notification_channel">Швидка перезавантаження</string>
+    <string name="app_name">Оновлення системи</string>
+</resources>
