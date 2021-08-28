@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">Klepnutím skontrolujete aktualizácie čo najskôr</string>
+    <string name="check_for_updates_title">Kontrola aktualizácií</string>
+    <string name="idle_reboot_summary">Po úspešnej inštalácii aktualizácie sa automaticky reštartuje, keď je zariadenie nečinné</string>
+    <string name="idle_reboot_title">Automatické reštartovanie</string>
+    <string name="battery_not_low_summary">Sťahovať a inštalovať aktualizácie len vtedy, keď je batéria nad úrovňou upozornenia</string>
+    <string name="battery_not_low_title">Vyžadujú batériu nad výstražnou úrovňou</string>
+    <string name="network_type_not_roaming">Bez roamingu</string>
+    <string name="network_type_any">Akékoľvek</string>
+    <string name="network_type_title">Povolené siete</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Stabilné</string>
+    <string name="channel_title">Kanál vydania</string>
+    <string name="settings_title">Nastavenia aktualizácie systému</string>
+    <string name="notification_reboot_action_legacy">Reštartovať a nainštalovať</string>
+    <string name="notification_reboot_action">Reštartovať</string>
+    <string name="notification_text_legacy">Nainštalujte najnovšiu verziu operačného systému.</string>
+    <string name="notification_text">Reštartujte zariadenie, aby ste mohli spustiť najnovšiu verziu operačného systému.</string>
+    <string name="notification_title_legacy">Aktualizácia bola úspešne stiahnutá</string>
+    <string name="notification_title">Aktualizácia bola úspešne nainštalovaná</string>
+    <string name="notification_install_title">Inštalácia systémovej aktualizácie</string>
+    <string name="notification_download_title">Sťahovanie systémovej aktualizácie</string>
+    <string name="notification_channel_progress">Priebeh aktualizácie</string>
+    <string name="notification_channel">Výzva na reštartovanie</string>
+    <string name="app_name">Aktualizátor systému</string>
+</resources>
