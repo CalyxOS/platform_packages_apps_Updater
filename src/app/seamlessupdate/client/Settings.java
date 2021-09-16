@@ -29,9 +29,16 @@ public class Settings extends PreferenceActivity {
         return PreferenceManager.getDefaultSharedPreferences(deviceContext);
     }
 
+    static String migrateChannel(final String oldChannel, final String defaultChannel) {
+        String newChannel = defaultChannel;
+        if ("stable".equals(oldChannel)) newChannel = "stable2";
+        else if ("beta".equals(oldChannel)) newChannel = "beta2";
+        return newChannel;
+    }
+
     static String getChannel(final Context context) {
         String def = context.getString(R.string.channel_default);
-        return getPreferences(context).getString(KEY_CHANNEL, def);
+        return migrateChannel(getPreferences(context).getString(KEY_CHANNEL, def), def);
     }
 
     static int getNetworkType(final Context context) {
@@ -123,6 +130,10 @@ public class Settings extends PreferenceActivity {
         networkType.setValue(Integer.toString(getNetworkType(this)));
         final Preference changelog = findPreference(KEY_CHANGELOG);
         changelog.setSummary(getString(R.string.changelog_summary));
+        final Preference channelPref = findPreference(KEY_CHANNEL);
+        final String currentChannel = getChannel(this);
+        if (currentChannel.startsWith("stable")) channelPref.setSummary(getString(R.string.channel_stable));
+        else if (currentChannel.startsWith("beta")) channelPref.setSummary(getString(R.string.channel_beta));
     }
 
     static Intent getChangelogIntent(Context context, String filename) {
