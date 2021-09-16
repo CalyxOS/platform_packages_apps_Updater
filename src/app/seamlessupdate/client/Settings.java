@@ -29,9 +29,16 @@ public class Settings extends PreferenceActivity {
         return PreferenceManager.getDefaultSharedPreferences(deviceContext);
     }
 
+    static String migrateChannel(final String oldChannel, final String defaultChannel) {
+        String newChannel = defaultChannel;
+        if ("stable".equals(oldChannel)) newChannel = "stable2";
+        if ("beta".equals(oldChannel)) newChannel = "beta2";
+        return newChannel;
+    }
+
     static String getChannel(final Context context) {
         String def = context.getString(R.string.channel_default);
-        return getPreferences(context).getString(KEY_CHANNEL, def);
+        return migrateChannel(getPreferences(context).getString(KEY_CHANNEL, def), def);
     }
 
     static int getNetworkType(final Context context) {
