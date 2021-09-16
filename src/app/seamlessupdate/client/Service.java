@@ -161,7 +161,7 @@ public class Service extends IntentService {
                 throw new GeneralSecurityException("device mismatch");
             }
             if (serialno != null) {
-                if ("stable".equals(channel) || "beta".equals(channel)) {
+                if (channel.startsWith("stable")) || (channel.startsWith("beta")) {
                     throw new GeneralSecurityException("serialno constraint not permitted for channel " + channel);
                 }
                 if (!serialno.equals(Build.getSerial())) {
