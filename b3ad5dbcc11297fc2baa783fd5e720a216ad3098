@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c14c8ef7_2201aec8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T00:00:01Z",
+      "side": 1,
+      "message": "Not the cleanest, I don\u0027t like it that much anymore, but seems to work.\n\n_Might_ cause some UI weirdness around the Release Channel preference.",
+      "revId": "b3ad5dbcc11297fc2baa783fd5e720a216ad3098",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
