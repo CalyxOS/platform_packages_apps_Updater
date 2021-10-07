@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9da9ca91_3adcb9cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T00:08:50Z",
+      "side": 1,
+      "message": "Fixes UI weirdness, but now the patch is uglier.\n\nI really liked this more when it was 2 lines.",
+      "revId": "0d400deaf38134d0493214421c04333dff5cdb15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
