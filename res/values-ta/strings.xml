@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">கூடிய விரைவில் புதுப்பிப்புகளைச் சரிபார்க்க தட்டவும்</string>
+    <string name="check_for_updates_title">புதுப்பிப்புகளைச் சரிபார்</string>
+    <string name="idle_reboot_summary">புதுப்பிப்பை வெற்றிகரமாக நிறுவிய பின் சாதனம் செயலற்றவுடன் தானாக மறுதொடக்கம் செய்யுங்கள்</string>
+    <string name="idle_reboot_title">தானியங்கி மறுதொடக்கம்</string>
+    <string name="battery_not_low_summary">பேட்டரி எச்சரிக்கை நிலைக்கு மேல் இருக்கும்போது மட்டுமே புதுப்பிப்புகளைப் பதிவிறக்கவும் / நிறுவவும்</string>
+    <string name="battery_not_low_title">எச்சரிக்கை நிலைக்கு மேல் பேட்டரி தேவை</string>
+    <string name="network_type_unmetered">அளவிடப்படாத</string>
+    <string name="network_type_not_roaming">ரோமிங் இல்லை</string>
+    <string name="network_type_any">ஏதேனும்</string>
+    <string name="network_type_title">அனுமதிக்கப்பட்ட வலையமைப்பு</string>
+    <string name="channel_stable">நிலையானது</string>
+    <string name="settings_title">கணினி புதுப்பிப்பு அமைப்புகள்</string>
+    <string name="notification_reboot_action_legacy">மறுதொடக்கம் செய்து நிறுவவும்</string>
+    <string name="notification_reboot_action">மறுதொடக்கம்</string>
+    <string name="notification_text_legacy">தயவுசெய்து சமீபத்திய OS வெளியீட்டை நிறுவவும்.</string>
+    <string name="notification_text">சமீபத்திய OS வெளியீட்டை இயக்க தயவுசெய்து சாதனத்தை மீண்டும் துவக்கவும்.</string>
+    <string name="notification_title_legacy">புதுப்பிப்பு வெற்றிகரமாக பதிவிறக்கம் செய்யப்பட்டது</string>
+    <string name="notification_title">புதியபதிப்பு வெற்றிகரமாக நிறுவப்பட்டது</string>
+    <string name="notification_install_title">கணினி புதுப்பிப்பை நிறுவுதல்</string>
+    <string name="notification_download_title">கணினி புதுப்பிப்பைப் பதிவிறக்குகிறது</string>
+    <string name="notification_channel_progress">புதுப்பிப்பு முன்னேற்றம்</string>
+    <string name="notification_channel">மறுதொடக்கம் செய்யுங்கள்</string>
+    <string name="app_name">கணினி புதுப்பிப்பான்</string>
+</resources>
