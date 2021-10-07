@@ -31,8 +31,8 @@ public class Settings extends PreferenceActivity {
 
     static String migrateChannel(final String oldChannel, final String defaultChannel) {
         String newChannel = defaultChannel;
-        if ("stable".equals(oldChannel)) newChannel = "stable2";
-        else if ("beta".equals(oldChannel)) newChannel = "beta2";
+        if ("stable2".equals(oldChannel)) newChannel = "stable3";
+        else if ("beta2".equals(oldChannel)) newChannel = "beta3";
         return newChannel;
     }
 
