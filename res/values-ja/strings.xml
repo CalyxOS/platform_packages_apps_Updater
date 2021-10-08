@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_title">更新を確認する</string>
+    <string name="idle_reboot_summary">更新後、自動的に端末を再起動する</string>
+    <string name="idle_reboot_title">自動再起動</string>
+    <string name="battery_not_low_summary">バッテリー残量が十分な時のみ更新をダウンロード/インストールする</string>
+    <string name="network_type_not_roaming">ローミング不可</string>
+    <string name="network_type_any">すべて</string>
+    <string name="network_type_title">許可されたネットワーク</string>
+    <string name="channel_beta">ベータ版</string>
+    <string name="channel_stable">安定版</string>
+    <string name="channel_title">リリースチャンネル</string>
+    <string name="settings_title">システム更新設定</string>
+    <string name="notification_reboot_action_legacy">再起動し、インストール</string>
+    <string name="notification_reboot_action">再起動</string>
+    <string name="notification_text_legacy">最新のOSをインストールしてください。</string>
+    <string name="notification_text">最新のOSへ更新するので端末を再起動してください</string>
+    <string name="notification_title_legacy">アップデートをダウンロード完了</string>
+    <string name="notification_title">アップデートをインストール完了</string>
+    <string name="notification_install_title">システムアップデートをインストールする</string>
+    <string name="notification_download_title">システムアップデートをダウンロードする</string>
+    <string name="notification_channel_progress">アップデート中</string>
+    <string name="app_name">システムアップデーター</string>
+</resources>
