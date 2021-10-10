@@ -327,7 +327,6 @@ public class Service extends IntentService {
             wakeLock.release();
             notificationHandler.cancelDownloadNotification();
             notificationHandler.cancelInstallNotification();
-            TriggerUpdateReceiver.completeWakefulIntent(intent);
         }
     }
 

@@ -35,11 +35,24 @@ public class NotificationHandler {
         createProgressNotificationChannel();
     }
 
+    void start() {
+        notificationManager.cancelAll();
+        service.startForeground(NOTIFICATION_ID_PROGRESS, new Notification.Builder(service,
+                    NOTIFICATION_CHANNEL_ID_PROGRESS)
+                .setContentIntent(getPendingSettingsIntent())
+                .setContentTitle(service.getString(R.string.notification_download_title))
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_DEFERRED)
+                .setOngoing(true)
+                .setOnlyAlertOnce(true)
+                .setSmallIcon(R.drawable.ic_system_update_white_24dp).build());
+    }
+
     void showDownloadNotification(int progress, int max) {
         String title = context.getString(R.string.notification_download_title);
         Notification.Builder builder = new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_PROGRESS)
                 .setContentIntent(getPendingChangelogIntent())
                 .setContentTitle(title)
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_IMMEDIATE)
                 .setOngoing(true)
                 .setSmallIcon(R.drawable.ic_system_update_white_24dp);
         if (max <= 0) builder.setProgress(0, 0, true);
