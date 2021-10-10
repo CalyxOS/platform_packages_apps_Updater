@@ -40,6 +40,7 @@ public class NotificationHandler {
         Notification.Builder builder = new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_PROGRESS)
                 .setContentIntent(getPendingChangelogIntent())
                 .setContentTitle(title)
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_IMMEDIATE)
                 .setOngoing(true)
                 .setSmallIcon(R.drawable.ic_system_update_white_24dp);
         if (max <= 0) builder.setProgress(0, 0, true);
