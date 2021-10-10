@@ -6,6 +6,7 @@ import static android.os.Build.VERSION.INCREMENTAL;
 import static android.os.UpdateEngine.UpdateStatusConstants.DOWNLOADING;
 import static android.os.UpdateEngine.UpdateStatusConstants.FINALIZING;
 
+import android.app.Notification;
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
@@ -60,6 +61,20 @@ public class Service extends IntentService {
     public void onCreate() {
         super.onCreate();
         notificationHandler = new NotificationHandler(this);
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        startForeground(NotificationHandler.NOTIFICATION_ID_DOWNLOAD,
+                    new Notification.Builder(getApplicationContext(),
+                    NotificationHandler.NOTIFICATION_CHANNEL_ID_PROGRESS)
+                .setContentIntent(notificationHandler.getPendingChangelogIntent())
+                .setContentTitle(getString(R.string.notification_download_title))
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_DEFERRED)
+                .setOngoing(true)
+                .setOnlyAlertOnce(true)
+                .setSmallIcon(R.drawable.ic_system_update_white_24dp).build());
+        return super.onStartCommand(intent, flags, startId);
     }
 
     private URLConnection fetchData(final String path) throws IOException {
@@ -327,7 +342,6 @@ public class Service extends IntentService {
             wakeLock.release();
             notificationHandler.cancelDownloadNotification();
             notificationHandler.cancelInstallNotification();
-            TriggerUpdateReceiver.completeWakefulIntent(intent);
         }
     }
 
