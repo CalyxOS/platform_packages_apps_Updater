@@ -20,8 +20,9 @@ public class NotificationHandler {
     private static final int NOTIFICATION_ID_DOWNLOAD = 1;
     private static final int NOTIFICATION_ID_INSTALL = 2;
     private static final int NOTIFICATION_ID_REBOOT = 3;
+    public static final int NOTIFICATION_ID_INITIAL = 4;
     private static final String NOTIFICATION_CHANNEL_ID = "updates2";
-    private static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
+    public static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
     private static final int PENDING_REBOOT_ID = 1;
     private static final int PENDING_SETTINGS_ID = 2;
     private static final int PENDING_CHANGELOG_ID = 3;
@@ -35,11 +36,16 @@ public class NotificationHandler {
         createProgressNotificationChannel();
     }
 
+    void cancelInitialNotification() {
+        notificationManager.cancel(NOTIFICATION_ID_INITIAL);
+    }
+
     void showDownloadNotification(int progress, int max) {
         String title = context.getString(R.string.notification_download_title);
         Notification.Builder builder = new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_PROGRESS)
                 .setContentIntent(getPendingChangelogIntent())
                 .setContentTitle(title)
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_IMMEDIATE)
                 .setOngoing(true)
                 .setSmallIcon(R.drawable.ic_system_update_white_24dp);
         if (max <= 0) builder.setProgress(0, 0, true);
@@ -77,6 +83,7 @@ public class NotificationHandler {
         Notification.Builder builder = new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_PROGRESS)
                 .setContentIntent(getPendingChangelogIntent())
                 .setContentTitle(title)
+                .setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_IMMEDIATE)
                 .setOngoing(true)
                 .setProgress(max, progress, false)
                 .setSmallIcon(R.drawable.ic_system_update_white_24dp);
@@ -93,7 +100,7 @@ public class NotificationHandler {
         notificationManager.createNotificationChannel(channel);
     }
 
-    private PendingIntent getPendingChangelogIntent() {
+    public PendingIntent getPendingChangelogIntent() {
         Intent intent = Settings.getChangelogIntent(context, "current.html");
         if (intent != null) {
             return PendingIntent.getActivity(context, PENDING_CHANGELOG_ID, intent, 0);
