@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">மாற்றக்குறிப்பு இல்லை</string>
+    <string name="changelog_summary">மாற்றக்குறிப்பை காண தட்டவும்</string>
+    <string name="changelog_title">மாற்றக்குறிப்பு</string>
+</resources>
