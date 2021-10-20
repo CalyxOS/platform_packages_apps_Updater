@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_title">التغيير</string>
+    <string name="changelog_title">יומן שינויים</string>
+    <string name="changelog_summary">נגיעה להצגת יומן השינויים</string>
+    <string name="changelog_unavailable">יומן השינויים לא זמין</string>
 </resources>
