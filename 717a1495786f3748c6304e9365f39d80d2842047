@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7eeab5e_c2470bbf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-27T15:42:49Z",
+      "side": 1,
+      "message": "I derped beta channel selection 😞\n\nIt always defaults to stable2 right now.\n\nUntested but hopefully this patch works.",
+      "revId": "717a1495786f3748c6304e9365f39d80d2842047",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
