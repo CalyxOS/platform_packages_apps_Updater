@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="idle_reboot_title">Mulai ulang otomatis</string>
+    <string name="app_name">Pembaruan sistem</string>
+    <string name="notification_channel">Permintaan reboot</string>
+    <string name="notification_channel_progress">Kemajuan pembaruan</string>
+    <string name="notification_download_title">Mengunduh pembaruan sistem</string>
+    <string name="notification_install_title">Menginstal pembaruan sistem</string>
+    <string name="notification_text_legacy">Silakan instal rilis OS terbaru.</string>
+    <string name="channel_title">Saluran rilis</string>
+    <string name="notification_title">Pembaruan berhasil diinstal</string>
+    <string name="notification_title_legacy">Pembaruan berhasil diunduh</string>
+    <string name="notification_text">Silakan reboot perangkat untuk menjalankan rilis OS terbaru.</string>
+    <string name="notification_reboot_action">Menyalakan ulang</string>
+    <string name="notification_reboot_action_legacy">Mulai ulang dan instal</string>
+    <string name="settings_title">Pengaturan pembaruan sistem</string>
+    <string name="channel_beta">Beta</string>
+    <string name="network_type_any">Apapun</string>
+    <string name="network_type_not_roaming">Tidak roaming</string>
+    <string name="network_type_unmetered">Tidak terukur</string>
+    <string name="channel_stable">Stabil</string>
+    <string name="network_type_title">Jaringan yang diizinkan</string>
+    <string name="battery_not_low_title">Membutuhkan daya baterai di atas tingkat peringatan</string>
+    <string name="battery_not_low_summary">Hanya unduh / instal pembaruan saat baterai berada di atas tingkat peringatan</string>
+    <string name="check_for_updates_title">Periksa pembaruan</string>
+    <string name="idle_reboot_summary">Mulai ulang secara otomatis ketika perangkat idle setelah berhasil menginstal pembaruan</string>
+    <string name="check_for_updates_summary">Ketuk untuk memeriksa pembaruan</string>
+</resources>
