@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="notification_title">Aktualizacja została pomyślnie zainstalowana</string>
+    <string name="notification_title">Aktualizacja pomyślnie zainstalowana</string>
     <string name="notification_install_title">Instalowanie aktualizacji systemu</string>
     <string name="notification_download_title">Pobieranie aktualizacji systemu</string>
     <string name="notification_channel_progress">Postęp aktualizacji</string>
-    <string name="notification_channel">Monit o ponowne uruchomienie</string>
+    <string name="notification_channel">Komunikat ponownego uruchomienia</string>
     <string name="app_name">Aktualizator systemu</string>
+    <string name="check_for_updates_summary">Stuknij, aby sprawdzić aktualizacje tak szybko, jak to możliwe</string>
+    <string name="check_for_updates_title">Sprawdź dostępność aktualizacji</string>
+    <string name="idle_reboot_summary">Automatycznie uruchom ponownie, gdy urządzenie jest bezczynne, po pomyślnym zainstalowaniu aktualizacji</string>
+    <string name="idle_reboot_title">Automatyczny restart</string>
+    <string name="battery_not_low_summary">Pobieraj/instaluj aktualizacje tylko wtedy, gdy poziom naładowania baterii jest powyżej poziomu ostrzegawczego</string>
+    <string name="battery_not_low_title">Wymagaj baterii powyżej poziomu ostrzegawczego</string>
+    <string name="network_type_unmetered">Niemierzona</string>
+    <string name="network_type_not_roaming">Nie w roamingu</string>
+    <string name="network_type_any">Każdy</string>
+    <string name="network_type_title">Dozwolone sieci</string>
+    <string name="channel_beta">Beta</string>
+    <string name="channel_stable">Stabilny</string>
+    <string name="channel_title">Kanał aktualizacji</string>
+    <string name="settings_title">Ustawienia aktualizacji systemu</string>
+    <string name="notification_reboot_action_legacy">Uruchom ponownie i zainstaluj</string>
+    <string name="notification_reboot_action">Uruchom ponownie</string>
+    <string name="notification_text_legacy">Proszę zainstalować najnowszą wersję systemu.</string>
+    <string name="notification_text">Proszę zrestartować urządzenie, aby korzystać z najnowszej wersji systemu.</string>
+    <string name="notification_title_legacy">Aktualizacja pomyślnie pobrana</string>
 </resources>
