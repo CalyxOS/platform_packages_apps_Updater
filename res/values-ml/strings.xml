@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="check_for_updates_summary">എത്രയും വേഗം പുതുക്കലുകൾ പരിശോധിക്കാൻ തൊടുക</string>
+    <string name="check_for_updates_title">പുതുക്കലുകൾക്കായി പരിശോധിക്കുക</string>
+    <string name="idle_reboot_summary">ഒരു പുതുക്കൽ വിജയകരമായി സ്ഥാപിച്ച ശേഷം ഉപകരണം നിഷ്‌ക്രിയമായിരിക്കുമ്പോൾ തനിയെ റീബൂട്ട് ചെയ്യുക</string>
+    <string name="idle_reboot_title">ഓട്ടോമാറ്റിക് റീബൂട്ട്</string>
+    <string name="battery_not_low_summary">ബാറ്ററി മുന്നറിയിപ്പ് നിലയ്ക്ക് മുകളിലായിരിക്കുമ്പോൾ മാത്രം പുതുക്കലുകൾ ഡൗൺലോഡ് ചെയ്യുക / സ്ഥാപിക്കുക</string>
+    <string name="battery_not_low_title">മുന്നറിയിപ്പ് നിലയ്ക്ക് മുകളിലുള്ള ബാറ്ററി ആവശ്യമാണ്</string>
+    <string name="network_type_unmetered">അളവില്ലാതെ</string>
+    <string name="network_type_not_roaming">റോമിംഗ് അല്ലാത്ത</string>
+    <string name="network_type_any">ഏതെങ്കിലും</string>
+    <string name="network_type_title">അനുവദനീയമായ നെറ്റ്‌വർക്കുകൾ</string>
+    <string name="channel_beta">ബീറ്റ</string>
+    <string name="channel_stable">സ്ഥിരതയുള്ള</string>
+    <string name="channel_title">റിലീസ് ചാനൽ</string>
+    <string name="settings_title">സിസ്റ്റം പുതുക്കൽ ക്രമീകരണങ്ങൾ</string>
+    <string name="notification_reboot_action_legacy">റീബൂട്ട് ചെയ്ത് സ്ഥാപിക്കുക</string>
+    <string name="notification_reboot_action">റീബൂട്ട് ചെയ്യുക</string>
+    <string name="notification_text_legacy">ഏറ്റവും പുതിയ OS റിലീസ് സ്ഥാപിക്കുക.</string>
+    <string name="notification_text">ഏറ്റവും പുതിയ OS റിലീസ് പ്രവർത്തിപ്പിക്കാൻ ഉപകരണം റീബൂട്ട് ചെയ്യുക.</string>
+    <string name="notification_title_legacy">പുതുക്കൽ വിജയകരമായി ഡൗൺലോഡ് ചെയ്തു</string>
+    <string name="notification_title">പുതുക്കൽ വിജയകരമായി സ്ഥാപിച്ചു</string>
+    <string name="notification_install_title">സിസ്റ്റം പുതുക്കൽ സ്ഥാപിക്കുന്നു</string>
+    <string name="notification_download_title">സിസ്റ്റം അപ്ഡേറ്റ് ഡൗൺലോഡ് ചെയ്യുന്നു</string>
+    <string name="notification_channel_progress">പുതുക്കൽ പുരോഗതി</string>
+    <string name="notification_channel">റീബൂട്ട് പ്രേരണ</string>
+    <string name="app_name">സിസ്റ്റം അപ്ഡേറ്റർ</string>
+</resources>
