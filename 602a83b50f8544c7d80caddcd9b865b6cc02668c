@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97960ddf_e97596f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-18T22:19:06Z",
+      "side": 1,
+      "message": "This now pops up from time-to-time when it does an update check.\n\nIt\u0027s also seen when updating, but this seems generic enough.",
+      "revId": "602a83b50f8544c7d80caddcd9b865b6cc02668c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
