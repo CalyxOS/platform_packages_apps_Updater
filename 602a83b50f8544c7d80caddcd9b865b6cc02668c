@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "83150639_6f47ce75",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-07T19:46:31Z",
+      "side": 1,
+      "message": "Gah I should\u0027ve written a better commit message before merging.\n\noh well, this isn\u0027t wrong, just could be more descriptive.",
+      "revId": "602a83b50f8544c7d80caddcd9b865b6cc02668c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "97960ddf_e97596f2",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
