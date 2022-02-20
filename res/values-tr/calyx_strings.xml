@@ -3,4 +3,5 @@
     <string name="changelog_unavailable">Değişiklik günlüğü yok</string>
     <string name="changelog_summary">Değişiklik günlüğünü görüntülemek için dokunun</string>
     <string name="changelog_title">Değişiklik günlüğü</string>
+    <string name="notification_initial_title">Sistem güncelleme hizmeti</string>
 </resources>
