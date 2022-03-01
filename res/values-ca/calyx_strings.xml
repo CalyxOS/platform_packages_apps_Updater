@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_initial_title">Servei d\'actualització del sistema</string>
+    <string name="changelog_unavailable">Registre de canvis no disponible</string>
+    <string name="changelog_summary">Fes un toc per visualitzar el registre de canvis</string>
+    <string name="changelog_title">Registre de canvis</string>
+</resources>
