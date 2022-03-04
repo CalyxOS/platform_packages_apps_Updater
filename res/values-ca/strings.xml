@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_text">Reinicia el dispositiu per executar l\'última versió del sistema operatiu.</string>
+    <string name="notification_text_legacy">Instal·la l\'última versió del SO.</string>
+    <string name="notification_download_title">Descarregant actualització del sistema</string>
+    <string name="notification_install_title">Instal·lant actualització del sistema</string>
+    <string name="app_name">Actualitzador del sistema</string>
+    <string name="notification_channel">Reinicia l\'indicador</string>
+    <string name="notification_channel_progress">Progrés de l\'actualització</string>
+    <string name="notification_title">Actualització instal·lada correctament</string>
+    <string name="notification_title_legacy">Actualització descarregada correctament</string>
+    <string name="notification_reboot_action">Reinicia</string>
+    <string name="battery_not_low_title">Requereix bateria per sobre del nivell d\'avís</string>
+    <string name="notification_reboot_action_legacy">Reinicia i instal·la</string>
+    <string name="channel_title">Canal de publicació</string>
+    <string name="battery_not_low_summary">Només baixa / instal·la les actualitzacions quan la bateria estigui per sobre del nivell d\'avís</string>
+    <string name="settings_title">Configuració d\'actualitzacions del sistema</string>
+    <string name="channel_stable">Estable</string>
+    <string name="network_type_title">Xarxes permeses</string>
+    <string name="network_type_any">Qualcevol</string>
+    <string name="network_type_not_roaming">Sense itinerància</string>
+    <string name="network_type_unmetered">Sense límit</string>
+    <string name="check_for_updates_summary">Toca per comprovar si hi ha actualitzacions tan aviat com sigui possible</string>
+    <string name="idle_reboot_title">Reinici automàtic</string>
+    <string name="idle_reboot_summary">Reinicia automàticament quan el dispositiu estigui inactiu després d\'instal·lar correctament una actualització</string>
+    <string name="check_for_updates_title">Cerca actualitzacions</string>
+    <string name="channel_beta">Beta</string>
+</resources>
