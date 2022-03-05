@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">시스템 업데이터</string>
+    <string name="notification_channel">바로 재부팅</string>
+    <string name="notification_install_title">시스템 업데이트 설치하는 중</string>
+    <string name="notification_download_title">시스템 업데이트 다운로드하는 중</string>
+    <string name="notification_title">업데이트가 성공적으로 설치됨</string>
+    <string name="notification_title_legacy">업데이트가 성공적으로 다운로드됨</string>
+    <string name="channel_beta">베타</string>
+    <string name="network_type_title">허용된 네트워크</string>
+    <string name="notification_text">최신 OS 릴리즈를 사용하기 위해 기기를 재부팅 하세요.</string>
+    <string name="check_for_updates_summary">탭하여 사용가능한 업데이트가 있는지 확인</string>
+    <string name="network_type_not_roaming">로밍이 아닌 네트워크</string>
+    <string name="notification_reboot_action">재부팅</string>
+    <string name="notification_reboot_action_legacy">설치 및 재부팅</string>
+    <string name="settings_title">시스템 업데이트 설정</string>
+    <string name="channel_stable">안정</string>
+    <string name="network_type_any">모든 네트워크</string>
+    <string name="idle_reboot_summary">업데이트를 설치하고 기기가 아무것도 하지 않고 있으면 자동으로 재부팅</string>
+    <string name="battery_not_low_summary">배터리 경고 상태 이상일 때에만 업데이트를 다운로드하고 설치</string>
+    <string name="check_for_updates_title">업데이트 확인</string>
+    <string name="idle_reboot_title">자동 재부팅</string>
+    <string name="battery_not_low_title">배터리 경고 레벨 이상의 배터리 필요</string>
+    <string name="network_type_unmetered">무제한 네트워크</string>
+    <string name="channel_title">릴리즈 채널</string>
+    <string name="notification_text_legacy">최신 OS 릴리즈를 설치하세요.</string>
+    <string name="notification_channel_progress">업데이트 진행률</string>
+</resources>

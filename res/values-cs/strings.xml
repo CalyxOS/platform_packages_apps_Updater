@@ -22,4 +22,6 @@
     <string name="notification_channel_progress">Průběh aktualizace</string>
     <string name="notification_channel">Výzva k restartování</string>
     <string name="app_name">Aktualizátor systému</string>
+    <string name="battery_not_low_title">Vyžadovat nabití baterie nad úroveň varování</string>
+    <string name="channel_title">Kanál verzí</string>
 </resources>

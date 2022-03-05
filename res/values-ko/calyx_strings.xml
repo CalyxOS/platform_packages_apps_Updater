@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">체인지로그 이용불가</string>
+    <string name="changelog_title">체인지로그</string>
+    <string name="changelog_summary">탭하여 체인지로그 보기</string>
+    <string name="notification_initial_title">시스템 업데이트 서비스</string>
+</resources>
