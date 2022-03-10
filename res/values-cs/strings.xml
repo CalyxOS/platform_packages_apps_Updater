@@ -24,4 +24,5 @@
     <string name="app_name">Aktualizátor systému</string>
     <string name="battery_not_low_title">Vyžadovat nabití baterie nad úroveň varování</string>
     <string name="channel_title">Kanál verzí</string>
+    <string name="network_type_unmetered">Neměřené</string>
 </resources>
