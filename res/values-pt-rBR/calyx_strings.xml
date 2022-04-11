@@ -3,4 +3,5 @@
     <string name="changelog_unavailable">Registro de alterações indisponível</string>
     <string name="changelog_summary">Toque para ver o registro de alterações</string>
     <string name="changelog_title">Registro de alterações</string>
+    <string name="notification_initial_title">Serviço de atualização do sistema</string>
 </resources>
