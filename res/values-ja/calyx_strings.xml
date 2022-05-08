@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_unavailable">Changelogは使用不能です</string>
-    <string name="changelog_summary">タップして変更履歴を見る</string>
+    <string name="changelog_unavailable">変更履歴はありません</string>
+    <string name="changelog_summary">タップして変更履歴を表示</string>
     <string name="changelog_title">変更履歴</string>
+    <string name="notification_initial_title">システムアップデートサービス</string>
 </resources>
