@@ -10,7 +10,7 @@
     <string name="network_type_not_roaming">Dolaşımda değil</string>
     <string name="network_type_any">Hepsi</string>
     <string name="network_type_title">İzin verilen ağlar</string>
-    <string name="channel_beta">Beta</string>
+    <string name="channel_beta">Deneysel</string>
     <string name="channel_stable">Kararlı</string>
     <string name="channel_title">Yayın kanalı</string>
     <string name="settings_title">Sistem güncelleme ayarları</string>
