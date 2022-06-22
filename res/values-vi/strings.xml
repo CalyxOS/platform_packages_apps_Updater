@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="channel_beta">Beta</string>
+    <string name="check_for_updates_summary">Nhấn để kiểm tra cập nhật sớm nhất có thể</string>
+    <string name="idle_reboot_title">Tự động khởi động lại</string>
+    <string name="network_type_any">Tùy</string>
+    <string name="network_type_not_roaming">Không roaming</string>
+    <string name="network_type_unmetered">Không được đo</string>
+    <string name="network_type_title">Các mạng được cho phép</string>
+    <string name="channel_stable">Ổn định</string>
+    <string name="channel_title">Kênh chính thức</string>
+    <string name="settings_title">Cài đặt cập nhật hệ thống</string>
+    <string name="notification_reboot_action_legacy">Khởi động lại và cài đặt</string>
+    <string name="notification_text_legacy">Hãy tải bản nhật mới nhất của hệ điều hành.</string>
+    <string name="notification_title_legacy">Bản cập nhật đã được tải xuống thành công</string>
+    <string name="notification_title">Bản cập nhật đã được cài đặt thành công</string>
+    <string name="notification_install_title">Đang cài đặt bản cập nhật hệ thống</string>
+    <string name="notification_download_title">Đang tải bản cập nhật hệ thống</string>
+    <string name="notification_channel_progress">Tiến trình cập nhật</string>
+    <string name="app_name">Trình cấp nhật hệ thống</string>
+    <string name="notification_reboot_action">Khởi động lại</string>
+    <string name="notification_channel">Lời nhắc khởi động lại</string>
+    <string name="notification_text">Hãy khởi động lại mảy để chạy phiên bản mới nhất của hệ điều hành.</string>
+    <string name="battery_not_low_title">Cần phần trăm pin trên mức cảnh báo</string>
+    <string name="battery_not_low_summary">Chỉ tải / cài đặt bản cập nhật khi phần trăm pin của thiết bị trên mức cảnh báo</string>
+    <string name="idle_reboot_summary">Tự động khởi động lại một khi thiết bị không làm gì sau khi cài đặt thành công một bản cập nhật</string>
+    <string name="check_for_updates_title">Kiểm tra cập nhật</string>
+</resources>

@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_title">Thay đổi</string>
+    <string name="changelog_summary">Nhấp để xem thay đổi</string>
+    <string name="changelog_unavailable">Thay đổi không khả dụng</string>
+    <string name="notification_initial_title">Dịch vụ cập nhật hệ thống</string>
+</resources>

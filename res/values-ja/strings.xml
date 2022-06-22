@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="check_for_updates_title">更新を確認する</string>
-    <string name="idle_reboot_summary">更新後、自動的に端末を再起動する</string>
+    <string name="idle_reboot_summary">アップデートのインストールに成功した後、デバイスがアイドル状態になると自動的に再起動します</string>
     <string name="idle_reboot_title">自動再起動</string>
-    <string name="battery_not_low_summary">バッテリー残量が十分な時のみ更新をダウンロード/インストールする</string>
-    <string name="network_type_not_roaming">ローミング不可</string>
+    <string name="battery_not_low_summary">バッテリー残量が十分な場合のみアップデートをダウンロード・インストールする</string>
+    <string name="network_type_not_roaming">ローミングしていない場合</string>
     <string name="network_type_any">すべて</string>
-    <string name="network_type_title">許可されたネットワーク</string>
+    <string name="network_type_title">使用可能なネットワーク</string>
     <string name="channel_beta">ベータ版</string>
     <string name="channel_stable">安定版</string>
     <string name="channel_title">リリースチャンネル</string>
-    <string name="settings_title">システム更新設定</string>
-    <string name="notification_reboot_action_legacy">再起動し、インストール</string>
+    <string name="settings_title">システムアップデート設定</string>
+    <string name="notification_reboot_action_legacy">再起動して、インストールします</string>
     <string name="notification_reboot_action">再起動</string>
     <string name="notification_text_legacy">最新のOSをインストールしてください。</string>
     <string name="notification_text">デバイスを再起動して、最新のOSへ更新してください。</string>
-    <string name="notification_title_legacy">アップデートをダウンロード完了</string>
+    <string name="notification_title_legacy">アップデートのダウンロードが完了しました</string>
     <string name="notification_title">アップデートが正常にインストールされました</string>
     <string name="notification_install_title">システムアップデートをインストールする</string>
     <string name="notification_download_title">システムアップデートをダウンロードする</string>
     <string name="notification_channel_progress">アップデート中</string>
-    <string name="app_name">システムアップデーター</string>
-    <string name="check_for_updates_summary">タップして今すぐ更新を確認</string>
+    <string name="app_name">システムアップデータ</string>
+    <string name="check_for_updates_summary">タップして今すぐ更新を確認する</string>
     <string name="notification_channel">再起動プロンプト</string>
     <string name="network_type_unmetered">従量制</string>
-    <string name="battery_not_low_title">バッテリーが十分に充電されていません</string>
+    <string name="battery_not_low_title">警告レベル以上のバッテリーが必要</string>
 </resources>
