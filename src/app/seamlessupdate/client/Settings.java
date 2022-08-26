@@ -30,8 +30,8 @@ public class Settings extends PreferenceActivity {
     }
 
     static String migrateChannel(final String prefChannel) {
-        if (prefChannel.startsWith("stable")) return "stable3";
-        else if (prefChannel.startsWith("beta")) return "beta3";
+        if (prefChannel.startsWith("stable")) return "stable4";
+        else if (prefChannel.startsWith("beta")) return "beta4";
         else return prefChannel;
     }
 
