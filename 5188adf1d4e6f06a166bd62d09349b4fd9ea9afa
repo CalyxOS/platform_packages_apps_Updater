@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cf83815_44bd294c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-26T08:45:13Z",
+      "side": 1,
+      "message": "Should go in last 12L build, I think September",
+      "revId": "5188adf1d4e6f06a166bd62d09349b4fd9ea9afa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
