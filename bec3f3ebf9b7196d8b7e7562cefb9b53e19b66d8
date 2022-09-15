@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98001b28_a3efefa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-15T17:56:28Z",
+      "side": 1,
+      "message": "`fixed\u003d\"true\"` is fine given that this is the Updater and we absolutely want people to see.\n\nDid you test this on a clean install?",
+      "revId": "bec3f3ebf9b7196d8b7e7562cefb9b53e19b66d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
