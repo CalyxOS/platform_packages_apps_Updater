@@ -2,5 +2,6 @@
 <exceptions>
     <exception package="app.seamlessupdate.client">
         <permission name="android.permission.READ_PHONE_STATE" fixed="true"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="true"/>
     </exception>
 </exceptions>
