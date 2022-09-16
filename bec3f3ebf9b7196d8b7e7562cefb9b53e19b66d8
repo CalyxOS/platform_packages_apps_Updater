@@ -16,6 +16,24 @@
       "message": "`fixed\u003d\"true\"` is fine given that this is the Updater and we absolutely want people to see.\n\nDid you test this on a clean install?",
       "revId": "bec3f3ebf9b7196d8b7e7562cefb9b53e19b66d8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f582409b_aee548cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-09-16T06:29:11Z",
+      "side": 1,
+      "message": "Tested, works",
+      "parentUuid": "98001b28_a3efefa0",
+      "revId": "bec3f3ebf9b7196d8b7e7562cefb9b53e19b66d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
