@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_initial_title">Servizo de actualizacions do sistema</string>
+    <string name="changelog_unavailable">O rexistro dos cambios non se atopa dispoñible</string>
+    <string name="changelog_title">Rexistro dos trocos</string>
+    <string name="changelog_summary">Prema pra ollar o rexistro dos trocos</string>
+</resources>
