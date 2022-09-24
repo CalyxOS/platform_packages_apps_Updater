@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="channel_beta">Beta</string>
+    <string name="notification_channel_progress">Actualizacion en progreso</string>
+    <string name="app_name">Actualizador do sistema</string>
+    <string name="notification_channel">Solicitude do reinicio</string>
+    <string name="channel_title">Liberala canle</string>
+    <string name="notification_download_title">Baixando a actualización do sistema</string>
+    <string name="notification_install_title">Instalando a actualización do sistema</string>
+    <string name="notification_title">A actualización instalouse correctamente</string>
+    <string name="network_type_title">Redes permitidas</string>
+    <string name="network_type_unmetered">Sen medidor</string>
+    <string name="idle_reboot_summary">Reinicie automaticamente unha vez co dispositivo estea inactivo despois de instalar correctamente unha actualización</string>
+    <string name="notification_title_legacy">Actualización baixada correctamente</string>
+    <string name="notification_text_legacy">Instala a última versión do SO.</string>
+    <string name="settings_title">Configuración de actualización do sistema</string>
+    <string name="notification_reboot_action">Reinicie</string>
+    <string name="notification_text">Reinicie o dispositivo para executar a derradeira versión do SO.</string>
+    <string name="notification_reboot_action_legacy">Reinicie e instale</string>
+    <string name="channel_stable">Estable</string>
+    <string name="network_type_any">Calquera</string>
+    <string name="network_type_not_roaming">Non itinerancia</string>
+    <string name="battery_not_low_title">Require a batería por riba do nivel de aviso</string>
+    <string name="idle_reboot_title">Reinicio automático</string>
+    <string name="battery_not_low_summary">Descarga / instala actualizacións só cando a batería atopese por riba do nivel de aviso</string>
+    <string name="check_for_updates_title">Comproba se atopamos actualizacións</string>
+    <string name="check_for_updates_summary">Prema pra buscar actualizacións o antes posible</string>
+</resources>
