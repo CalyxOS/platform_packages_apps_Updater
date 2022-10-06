@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b731af75_cd1f8cc9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-06T18:00:03Z",
+      "side": 1,
+      "message": "Needed to provide Pixel 6a new installs upgrade till we fix FP issue.",
+      "revId": "edcdf3c15b61b593deab5b2810d33cdd83305a51",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
