@@ -6,8 +6,8 @@
     </string-array>
 
     <string-array name="channel_values" translatable="false">
-        <item>stable4</item>
-        <item>beta4</item>
+        <item>stable5</item>
+        <item>beta5</item>
     </string-array>
 
     <string-array name="network_type_entries" translatable="false">
