@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="check_for_updates_summary">Tippen Sie, um so schnell wie möglich nach Aktualisierungen zu suchen</string>
+    <string name="check_for_updates_summary">Antippen, um so schnell wie möglich nach Aktualisierungen zu suchen</string>
     <string name="check_for_updates_title">Nach Aktualisierungen suchen</string>
     <string name="idle_reboot_summary">Automatischer Neustart, wenn das Gerät nach erfolgreicher Installation einer Aktualisierung im Leerlauf ist</string>
     <string name="idle_reboot_title">Automatischer Neustart</string>
@@ -12,8 +12,8 @@
     <string name="settings_title">Systemaktualisierungseinstellungen</string>
     <string name="notification_reboot_action_legacy">Neu starten und installieren</string>
     <string name="notification_reboot_action">Neu starten</string>
-    <string name="notification_text_legacy">Installieren Sie die neueste Betriebssystemversion.</string>
-    <string name="notification_text">Bitte starten Sie das Gerät neu, um die neueste Betriebssystemversion auszuführen.</string>
+    <string name="notification_text_legacy">Installiere die neueste Betriebssystemversion.</string>
+    <string name="notification_text">Bitte starte das Gerät neu, um die neueste Betriebssystemversion auszuführen.</string>
     <string name="notification_title_legacy">Aktualisierung erfolgreich heruntergeladen</string>
     <string name="notification_title">Aktualisierung erfolgreich installiert</string>
     <string name="network_type_unmetered">Nicht gemessen</string>
