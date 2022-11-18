@@ -2,7 +2,7 @@
 <resources>
     <string name="channel_beta">Beta</string>
     <string name="notification_channel_progress">Actualizacion en progreso</string>
-    <string name="app_name">Actualizador do sistema</string>
+    <string name="app_name">actualizador do sistema</string>
     <string name="notification_channel">Solicitude do reinicio</string>
     <string name="channel_title">Liberala canle</string>
     <string name="notification_download_title">Baixando a actualización do sistema</string>
