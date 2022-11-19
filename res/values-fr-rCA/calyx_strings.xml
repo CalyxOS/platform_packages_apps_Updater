@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_initial_title">Service de mise à jour du système</string>
+    <string name="changelog_unavailable">Historique des modifications non disponible</string>
+    <string name="changelog_summary">Appuyer pour afficher l\'historique des modifications</string>
+    <string name="changelog_title">Historique des modifications</string>
+</resources>
