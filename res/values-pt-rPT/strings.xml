@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Atualizador de sistema</string>
+    <string name="app_name">Atualização do sistema</string>
+    <string name="notification_channel">Prompt de reinicialização</string>
+    <string name="notification_download_title">A descarregar uma atualização do sistema</string>
+    <string name="notification_title_legacy">Atualização decarregada com sucesso</string>
+    <string name="notification_text">Reinicie o aparelho para executar a última versão do SO.</string>
+    <string name="notification_text_legacy">Instale a última versão do SO.</string>
+    <string name="notification_reboot_action">Reiniciar</string>
+    <string name="notification_reboot_action_legacy">Reiniciar e instalar</string>
+    <string name="channel_stable">Estável</string>
+    <string name="channel_beta">Beta</string>
+    <string name="battery_not_low_title">Requer bateria acima do nível de aviso</string>
+    <string name="battery_not_low_summary">Decarregar/instalar atualizações apenas quando a bateria estiver acima do nível de aviso</string>
+    <string name="idle_reboot_title">Reinício automático</string>
+    <string name="idle_reboot_summary">Reiniciar automaticamente assim que o aparelho estiver ocioso após instalar com sucesso uma atualização</string>
+    <string name="check_for_updates_summary">Toque para verificar se há atualizações o mais rápido possível</string>
+    <string name="check_for_updates_title">Verificar por atualizações</string>
+    <string name="network_type_unmetered">Não medida</string>
+    <string name="network_type_not_roaming">Sem roaming</string>
+    <string name="network_type_any">Qualquer</string>
+    <string name="network_type_title">Redes permitidas</string>
+    <string name="channel_title">Canal de lançamento</string>
+    <string name="settings_title">Configurações de atualização do sistema</string>
+    <string name="notification_title">Atualização instalada com sucesso</string>
+    <string name="notification_install_title">Instalando atualização do sistema</string>
+    <string name="notification_channel_progress">Progresso de atualização</string>
 </resources>
