@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_summary">چینج لاگ دیکھنے کے لیے ٹیپ کریں</string>
+    <string name="notification_initial_title">سسٹم اپ ڈیٹ سروس</string>
+    <string name="changelog_unavailable">چینج لاگ دستیاب نہیں ہے۔</string>
+    <string name="changelog_title">چینج لاگ</string>
+</resources>
