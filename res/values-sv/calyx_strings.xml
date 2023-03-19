@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Ändringslogg inte tillgänglig</string>
+    <string name="notification_initial_title">Systemuppdateringstjänst</string>
+    <string name="changelog_summary">Klicka för att granska ändringslogg</string>
+    <string name="changelog_title">Ändringslogg</string>
+</resources>
