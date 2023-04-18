@@ -30,7 +30,8 @@ public class Settings extends PreferenceActivity {
     }
 
     static String migrateChannel(final String prefChannel) {
-        if (prefChannel.startsWith("stable")) return "stable4";
+        if (prefChannel.startsWith("security-express")) return "security-express4";
+        else if (prefChannel.startsWith("stable")) return "stable4";
         else if (prefChannel.startsWith("beta")) return "beta4";
         else return prefChannel;
     }
@@ -58,7 +59,8 @@ public class Settings extends PreferenceActivity {
     void refreshChannelSummary() {
         final Preference channelPref = findPreference(KEY_CHANNEL);
         final String currentChannel = getChannel(this);
-        if (currentChannel.startsWith("stable")) channelPref.setSummary(getString(R.string.channel_stable));
+        if (currentChannel.startsWith("security-express")) channelPref.setSummary(getString(R.string.channel_security_express));
+        else if (currentChannel.startsWith("stable")) channelPref.setSummary(getString(R.string.channel_stable));
         else if (currentChannel.startsWith("beta")) channelPref.setSummary(getString(R.string.channel_beta));
     }
 
