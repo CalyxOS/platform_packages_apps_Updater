@@ -70,6 +70,24 @@
       "parentUuid": "8707c61a_b029eef7",
       "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffbb6a85_2d0828df",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-18T17:21:09Z",
+      "side": 1,
+      "message": "Almost not at all",
+      "parentUuid": "9a7bed45_7ac62b1f",
+      "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
