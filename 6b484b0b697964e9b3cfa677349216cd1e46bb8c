@@ -16,6 +16,24 @@
       "message": "nit: should it be Security Express (both words capitalized)?",
       "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "769510c1_683c771a",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-18T17:02:45Z",
+      "side": 1,
+      "message": "No, everything else in settings is this way, including app_name here at the very top.",
+      "parentUuid": "f96ed126_b3789fd3",
+      "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
