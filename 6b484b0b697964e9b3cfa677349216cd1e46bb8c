@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "5c7b65e9_c3f63698",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-18T20:22:53Z",
+      "side": 1,
+      "message": "```\nD Service : fetching metadata for bramble-security-express4\nE Service : failed to download and install update\nE Service : java.io.FileNotFoundException: https://release.calyxinstitute.org/bramble-security-express4\n```\n\nThat looks like what we\u0027re expecting to see, right? Happens when selecting security-express and checking for update.",
+      "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f96ed126_b3789fd3",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
