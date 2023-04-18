@@ -34,6 +34,24 @@
       "parentUuid": "f96ed126_b3789fd3",
       "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8707c61a_b029eef7",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-18T17:10:16Z",
+      "side": 1,
+      "message": "Alright. I didn\u0027t mean aligning it with the existing strings.xml entries but with the fact that it\u0027s the title of a channel we\u0027ve introduced that has unique meaning that isn\u0027t necessarily obvious from the words alone (\"System updater\" \u003d clear on its own by the English words together, \"Security express\" \u003d what?). But, either way is honestly fine, just thought I\u0027d mention it.",
+      "parentUuid": "769510c1_683c771a",
+      "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
