@@ -52,6 +52,24 @@
       "parentUuid": "769510c1_683c771a",
       "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a7bed45_7ac62b1f",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-18T17:19:30Z",
+      "side": 1,
+      "message": "Doesn\u0027t have to be perfect. I didn\u0027t even want to add it to this app, but I also don\u0027t want to hold this off until the new app is ready, so this can be considered a stop gap.\n\nNew app will have an explanation.\n\nHow much would just the E being capital help anyways.",
+      "parentUuid": "8707c61a_b029eef7",
+      "revId": "6b484b0b697964e9b3cfa677349216cd1e46bb8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
