@@ -24,5 +24,5 @@
     <string name="notification_download_title">Systeemupdate downloaden</string>
     <string name="notification_channel_progress">Update voortgang</string>
     <string name="notification_channel">Herstart prompt</string>
-    <string name="app_name">Systeem updater</string>
+    <string name="app_name">Systeemupdater</string>
 </resources>
