@@ -8,7 +8,7 @@
     <string name="network_type_any">Jedes</string>
     <string name="network_type_title">Erlaubte Netzwerke</string>
     <string name="channel_beta">Beta</string>
-    <string name="channel_title">Freigabekanal</string>
+    <string name="channel_title">Release-Kanal</string>
     <string name="settings_title">Systemaktualisierungseinstellungen</string>
     <string name="notification_reboot_action_legacy">Neu starten und installieren</string>
     <string name="notification_reboot_action">Neu starten</string>
@@ -25,4 +25,5 @@
     <string name="notification_channel_progress">Aktualisierungsfortschritt</string>
     <string name="notification_channel">Eingabeaufforderung zum Neustart</string>
     <string name="app_name">Systemaktualisierung</string>
+    <string name="channel_security_express">Sicherheitsexpress</string>
 </resources>

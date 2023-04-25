@@ -25,4 +25,5 @@
     <string name="notification_channel_progress">Перебіг оновлення</string>
     <string name="notification_channel">Швидка перезавантаження</string>
     <string name="app_name">Оновлення системи</string>
+    <string name="channel_security_express">Швидка безпека</string>
 </resources>
