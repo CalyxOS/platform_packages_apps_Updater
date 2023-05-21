@@ -25,4 +25,5 @@
     <string name="notification_channel_progress">תהליך עדכון</string>
     <string name="notification_channel">בקשת הפעלה מחדש</string>
     <string name="app_name">מעדכן המערכת</string>
+    <string name="channel_security_express">אבטחה במהירות</string>
 </resources>

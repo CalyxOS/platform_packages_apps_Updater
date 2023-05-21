@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_unavailable">Utilgjengelig</string>
-    <string name="changelog_summary">Trykk for å vise</string>
+    <string name="changelog_unavailable">Endringslogg utilgjengelig</string>
+    <string name="changelog_summary">Trykk for å se endringsloggen</string>
     <string name="changelog_title">Endringslogg</string>
     <string name="notification_initial_title">Systemoppdateringstjeneste</string>
 </resources>
