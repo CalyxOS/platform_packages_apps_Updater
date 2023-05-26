@@ -25,4 +25,5 @@
     <string name="notification_download_title">Descargando actualización del sistema</string>
     <string name="notification_channel_progress">Progreso de la actualización</string>
     <string name="app_name">Actualizador del sistema</string>
+    <string name="channel_security_express">Seguridad Rápida</string>
 </resources>

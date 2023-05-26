@@ -25,4 +25,5 @@
     <string name="notification_install_title">Εγκατάσταση ενημέρωσης συστήματος</string>
     <string name="notification_channel_progress">Πρόοδος ενημέρωσης</string>
     <string name="notification_channel">Προτροπή επανεκκίνησης</string>
+    <string name="channel_security_express">Εξπρές ασφαλείας</string>
 </resources>

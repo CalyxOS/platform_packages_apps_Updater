@@ -10,7 +10,7 @@
     <string name="idle_reboot_summary">Automatski ponovo pokreni sustav kad uređaj miruje nakon uspješno instaliranog novog izdanja</string>
     <string name="idle_reboot_title">Automatsko ponovno pokretanje</string>
     <string name="battery_not_low_title">Zahtijevaj bateriju iznad razine upozorenja</string>
-    <string name="network_type_unmetered">Neograničena</string>
+    <string name="network_type_unmetered">Neograničeno</string>
     <string name="network_type_not_roaming">Bez roaminga</string>
     <string name="network_type_any">Bilo koja</string>
     <string name="network_type_title">Dozvoljene mreže</string>
@@ -25,4 +25,5 @@
     <string name="notification_channel_progress">Napredak aktualiziranja</string>
     <string name="notification_channel">Upit za ponovno pokretanje</string>
     <string name="app_name">Aktualiziranje sustava</string>
+    <string name="channel_security_express">Brza sigurnost</string>
 </resources>
