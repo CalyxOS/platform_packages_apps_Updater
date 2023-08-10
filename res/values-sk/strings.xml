@@ -24,4 +24,5 @@
     <string name="notification_channel_progress">Priebeh aktualizácie</string>
     <string name="notification_channel">Výzva na reštartovanie</string>
     <string name="app_name">Aktualizátor systému</string>
+    <string name="network_type_unmetered">Nemerané</string>
 </resources>
