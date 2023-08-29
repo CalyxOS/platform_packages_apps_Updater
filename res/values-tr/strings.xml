@@ -25,4 +25,5 @@
     <string name="notification_channel_progress">Güncelleme ilerlemesi</string>
     <string name="notification_channel">Yeniden başlatma istemi</string>
     <string name="app_name">Sistem güncelleyici</string>
+    <string name="channel_security_express">Güvenlik kanalı</string>
 </resources>
