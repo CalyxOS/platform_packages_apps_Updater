@@ -18,11 +18,12 @@
     <string name="notification_reboot_action">Herstart</string>
     <string name="notification_text_legacy">Installeer de laatste versie van het besturingssysteem.</string>
     <string name="notification_text">Start het apparaat opnieuw op om de laatste versie van het besturingssysteem te kunnen gebruiken.</string>
-    <string name="notification_title_legacy">Update succesvol geïnstalleerd</string>
+    <string name="notification_title_legacy">Update succesvol gedownload</string>
     <string name="notification_title">Update succesvol geïnstalleerd</string>
     <string name="notification_install_title">Systeemupdate installeren</string>
     <string name="notification_download_title">Systeemupdate downloaden</string>
     <string name="notification_channel_progress">Update voortgang</string>
     <string name="notification_channel">Herstart prompt</string>
-    <string name="app_name">Systeemupdater</string>
+    <string name="app_name">Systeem updater</string>
+    <string name="channel_security_express">Beveiliging expres</string>
 </resources>
