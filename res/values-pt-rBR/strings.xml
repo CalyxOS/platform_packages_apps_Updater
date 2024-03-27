@@ -16,7 +16,7 @@
     <string name="settings_title">Configurações de atualização do sistema</string>
     <string name="notification_reboot_action_legacy">Reiniciar e instalar</string>
     <string name="notification_reboot_action">Reiniciar</string>
-    <string name="notification_text_legacy">Por favor, instale a última versão do SO.</string>
+    <string name="notification_text_legacy">Instale a última versão do SO.</string>
     <string name="notification_text">Reinicie o dispositivo para executar a última versão do SO.</string>
     <string name="notification_title_legacy">Atualização baixada com sucesso</string>
     <string name="notification_title">Atualização instalada com sucesso</string>
