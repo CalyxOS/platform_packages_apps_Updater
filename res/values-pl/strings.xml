@@ -25,4 +25,5 @@
     <string name="notification_text_legacy">Proszę zainstalować najnowszą wersję systemu.</string>
     <string name="notification_text">Proszę zrestartować urządzenie, aby korzystać z najnowszej wersji systemu.</string>
     <string name="notification_title_legacy">Aktualizacja pomyślnie pobrana</string>
+    <string name="channel_security_express">Security express</string>
 </resources>

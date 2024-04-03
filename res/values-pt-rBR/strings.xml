@@ -13,17 +13,17 @@
     <string name="channel_beta">Beta</string>
     <string name="channel_stable">Estável</string>
     <string name="channel_title">Canal de lançamento</string>
-    <string name="settings_title">Configurações de atualização do sistema</string>
+    <string name="settings_title">Configurações das atualizações do sistema</string>
     <string name="notification_reboot_action_legacy">Reiniciar e instalar</string>
     <string name="notification_reboot_action">Reiniciar</string>
-    <string name="notification_text_legacy">Por favor, instale a última versão do SO.</string>
-    <string name="notification_text">Reinicie o dispositivo para executar a última versão do SO.</string>
+    <string name="notification_text_legacy">Instale a última versão do sistema operacional.</string>
+    <string name="notification_text">Reinicie o dispositivo para executar a última versão do sistema operacional.</string>
     <string name="notification_title_legacy">Atualização baixada com sucesso</string>
     <string name="notification_title">Atualização instalada com sucesso</string>
-    <string name="notification_install_title">Instalando atualização do sistema</string>
-    <string name="notification_download_title">Baixando atualização do sistema</string>
+    <string name="notification_install_title">Instalando a atualização do sistema</string>
+    <string name="notification_download_title">Baixando a atualização do sistema</string>
     <string name="notification_channel_progress">Progresso da atualização</string>
-    <string name="notification_channel">Prompt de reinicialização</string>
+    <string name="notification_channel">Lembrete de reinicialização</string>
     <string name="app_name">Atualizador do sistema</string>
     <string name="channel_security_express">Segurança express</string>
 </resources>
