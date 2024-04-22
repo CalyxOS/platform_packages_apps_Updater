@@ -25,4 +25,5 @@
     <string name="notification_title">Atualização instalada com sucesso</string>
     <string name="notification_install_title">Instalando atualização do sistema</string>
     <string name="notification_download_title">A descarregar uma atualização do sistema</string>
+    <string name="channel_security_express">Segurança express</string>
 </resources>

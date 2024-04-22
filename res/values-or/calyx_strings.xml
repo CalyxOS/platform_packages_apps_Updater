@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_summary">ପରିବର୍ତ୍ତନ ସୂଚୀ ଦେଖବାର୍ ଲାଗି ଟଚ୍ କର</string>
+    <string name="notification_initial_title">ସିଷ୍ଟମ୍ ଅପଡେଟ୍ ସେବା</string>
+    <string name="changelog_unavailable">ପରିବର୍ତ୍ତନ ସୂଚୀ ନାଇନ</string>
+    <string name="changelog_title">ପରିବର୍ତ୍ତନ ସୂଚୀ</string>
+</resources>
