@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Actualizator de sistem</string>
+    <string name="settings_title">Setări de actualizare a sistemului</string>
+    <string name="notification_text_legacy">Instalează cea mai recentă versiune a sistemului de operare.</string>
+    <string name="notification_text">Repornește dispozitivul pentru a rula cea mai recentă versiune a sistemului de operare.</string>
+    <string name="notification_title_legacy">Actualizarea a fost descărcată cu succes</string>
+    <string name="notification_download_title">Se descarcă actualizarea sistemului</string>
+    <string name="notification_channel_progress">Progres actualizare</string>
+    <string name="channel_beta">Beta</string>
+    <string name="network_type_any">Oricare</string>
+    <string name="network_type_not_roaming">Nu în roaming</string>
+    <string name="network_type_unmetered">Necontorizat</string>
+    <string name="battery_not_low_title">Necesită baterie peste nivelul de avertizare</string>
+    <string name="battery_not_low_summary">Descarcă/instalează actualizări numai când bateria este peste nivelul de avertizare</string>
+    <string name="idle_reboot_title">Repornire automată</string>
+    <string name="check_for_updates_title">Caută actualizări</string>
+    <string name="notification_install_title">Instalarea actualizării sistemului</string>
+    <string name="notification_title">Actualizare instalată cu succes</string>
+    <string name="notification_channel">Solicitare de repornire</string>
+    <string name="notification_reboot_action">Repornește</string>
+    <string name="notification_reboot_action_legacy">Repornește și instalează</string>
+    <string name="channel_title">Canal actualizări</string>
+    <string name="channel_stable">Stabil</string>
+    <string name="network_type_title">Rețele permise</string>
+    <string name="channel_security_express">Securitate expres</string>
+    <string name="idle_reboot_summary">Repornește automat odată ce dispozitivul este inactiv după instalarea cu succes a unei actualizări</string>
+    <string name="check_for_updates_summary">Atinge pentru a verifica actualizările cât mai curând posibil</string>
+</resources>
