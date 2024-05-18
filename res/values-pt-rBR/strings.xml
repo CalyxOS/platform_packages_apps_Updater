@@ -2,11 +2,11 @@
 <resources>
     <string name="check_for_updates_summary">Toque para verificar se há atualizações o mais rápido possível</string>
     <string name="check_for_updates_title">Verificar por atualizações</string>
-    <string name="idle_reboot_summary">Reiniciar automaticamente assim que o dispositivo estiver ocioso após instalar com sucesso uma atualização</string>
-    <string name="idle_reboot_title">Reinício automático</string>
+    <string name="idle_reboot_summary">Reiniciar automaticamente quando o dispositivo estiver em repouso após instalar uma atualização</string>
+    <string name="idle_reboot_title">Reinicialização automática</string>
     <string name="battery_not_low_summary">Baixar/instalar atualizações apenas quando a bateria estiver acima do nível de aviso</string>
-    <string name="battery_not_low_title">Requer bateria acima do nível de aviso</string>
-    <string name="network_type_unmetered">Não medida</string>
+    <string name="battery_not_low_title">Requerir que a bateria esteja acima do nível de aviso</string>
+    <string name="network_type_unmetered">Não medidas</string>
     <string name="network_type_not_roaming">Sem roaming</string>
     <string name="network_type_any">Qualquer</string>
     <string name="network_type_title">Redes permitidas</string>
