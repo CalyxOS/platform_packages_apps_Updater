@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="check_for_updates_summary">Toque para verificar se há atualizações o mais rápido possível</string>
-    <string name="check_for_updates_title">Verificar por atualizações</string>
+    <string name="check_for_updates_summary">Toque para buscar atualizações o mais rápido possível</string>
+    <string name="check_for_updates_title">Buscar atualizações</string>
     <string name="idle_reboot_summary">Reiniciar automaticamente quando o dispositivo estiver em repouso após instalar uma atualização</string>
     <string name="idle_reboot_title">Reinicialização automática</string>
     <string name="battery_not_low_summary">Baixar/instalar atualizações apenas quando a bateria estiver acima do nível de aviso</string>
-    <string name="battery_not_low_title">Requerir que a bateria esteja acima do nível de aviso</string>
+    <string name="battery_not_low_title">Exigir que a bateria esteja acima do nível de aviso</string>
     <string name="network_type_unmetered">Não medidas</string>
     <string name="network_type_not_roaming">Sem roaming</string>
     <string name="network_type_any">Qualquer</string>
@@ -20,8 +20,8 @@
     <string name="notification_text">Reinicie o dispositivo para executar a última versão do sistema operacional.</string>
     <string name="notification_title_legacy">Atualização baixada com sucesso</string>
     <string name="notification_title">Atualização instalada com sucesso</string>
-    <string name="notification_install_title">Instalando a atualização do sistema</string>
-    <string name="notification_download_title">Baixando a atualização do sistema</string>
+    <string name="notification_install_title">Instalando atualização do sistema</string>
+    <string name="notification_download_title">Baixando atualização do sistema</string>
     <string name="notification_channel_progress">Progresso da atualização</string>
     <string name="notification_channel">Lembrete de reinicialização</string>
     <string name="app_name">Atualizador do sistema</string>
