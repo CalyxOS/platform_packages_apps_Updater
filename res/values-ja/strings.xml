@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="check_for_updates_title">更新を確認する</string>
-    <string name="idle_reboot_summary">アップデートのインストールに成功した後、デバイスがアイドル状態になると自動的に再起動します</string>
+    <string name="idle_reboot_summary">アップデートが正常にインストールされた後、デバイスが待機状態になると自動的に再起動する</string>
     <string name="idle_reboot_title">自動再起動</string>
     <string name="battery_not_low_summary">バッテリー残量が十分な場合のみアップデートをダウンロード・インストールする</string>
     <string name="network_type_not_roaming">ローミングしていない場合</string>
@@ -11,7 +11,7 @@
     <string name="channel_stable">安定版</string>
     <string name="channel_title">リリースチャンネル</string>
     <string name="settings_title">システムアップデート設定</string>
-    <string name="notification_reboot_action_legacy">再起動して、インストールします</string>
+    <string name="notification_reboot_action_legacy">再起動してインストールします</string>
     <string name="notification_reboot_action">再起動</string>
     <string name="notification_text_legacy">最新のOSをインストールしてください。</string>
     <string name="notification_text">デバイスを再起動して、最新のOSへ更新してください。</string>
@@ -25,4 +25,5 @@
     <string name="notification_channel">再起動プロンプト</string>
     <string name="network_type_unmetered">従量制</string>
     <string name="battery_not_low_title">警告レベル以上のバッテリーが必要</string>
+    <string name="channel_security_express">セキュリティエクスプレス</string>
 </resources>
