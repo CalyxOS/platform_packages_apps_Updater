@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe4dca06_494e8166",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-09T15:46:44Z",
+      "side": 1,
+      "message": "31317: update-releases: stable7 and so on | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/31317",
+      "revId": "98f68f809268d60a4cc5cf7c386535ca40fd5489",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
