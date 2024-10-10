@@ -16,6 +16,23 @@
       "message": "31317: update-releases: stable7 and so on | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/31317",
       "revId": "98f68f809268d60a4cc5cf7c386535ca40fd5489",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "768b6e0b_f7c05dcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-10T19:26:24Z",
+      "side": 1,
+      "message": "31371: Clear restricted networking mode allowlist | https://review.calyxos.org/c/CalyxOS/platform_calyx-sdk/+/31371",
+      "revId": "98f68f809268d60a4cc5cf7c386535ca40fd5489",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
