@@ -30,9 +30,9 @@ public class Settings extends PreferenceActivity {
     }
 
     static String migrateChannel(final String prefChannel) {
-        if (prefChannel.startsWith("security-express")) return "security-express7";
-        else if (prefChannel.startsWith("stable")) return "stable7";
-        else if (prefChannel.startsWith("beta")) return "beta7";
+        if (prefChannel.startsWith("security-express")) return "security-express6";
+        else if (prefChannel.startsWith("stable")) return "stable6";
+        else if (prefChannel.startsWith("beta")) return "beta6";
         else return prefChannel;
     }
 
