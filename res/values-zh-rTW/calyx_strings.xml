@@ -3,4 +3,5 @@
     <string name="changelog_title">更新日誌</string>
     <string name="changelog_unavailable">更新日誌無法使用</string>
     <string name="changelog_summary">點擊查看更新日誌</string>
+    <string name="notification_initial_title">系統更新服務</string>
 </resources>
