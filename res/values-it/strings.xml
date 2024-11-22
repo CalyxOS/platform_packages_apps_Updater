@@ -25,4 +25,5 @@
     <string name="channel_title">Canale di rilascio</string>
     <string name="notification_channel">Richiesta di riavvio</string>
     <string name="app_name">Programma di aggiornamento di sistema</string>
+    <string name="channel_security_express">Sicurezza express</string>
 </resources>
