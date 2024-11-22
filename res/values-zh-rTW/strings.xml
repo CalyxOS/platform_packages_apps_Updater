@@ -25,4 +25,5 @@
     <string name="channel_title">發佈通道</string>
     <string name="settings_title">系統更新設置</string>
     <string name="notification_reboot_action_legacy">重新啟動並安裝</string>
+    <string name="channel_security_express">安全快遞</string>
 </resources>

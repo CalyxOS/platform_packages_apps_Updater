@@ -25,4 +25,5 @@
     <string name="notification_channel">Výzva na reštartovanie</string>
     <string name="app_name">Aktualizátor systému</string>
     <string name="network_type_unmetered">Nemerané</string>
+    <string name="channel_security_express">Bespečtnostný expres</string>
 </resources>

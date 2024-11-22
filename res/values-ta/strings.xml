@@ -7,7 +7,7 @@
     <string name="battery_not_low_summary">பேட்டரி எச்சரிக்கை நிலைக்கு மேல் இருக்கும்போது மட்டுமே புதுப்பிப்புகளைப் பதிவிறக்கவும் / நிறுவவும்</string>
     <string name="battery_not_low_title">எச்சரிக்கை நிலைக்கு மேல் பேட்டரி தேவை</string>
     <string name="network_type_unmetered">அளவிடப்படாத</string>
-    <string name="network_type_not_roaming">ரோமிங் இல்லை</string>
+    <string name="network_type_not_roaming">ரோமிங் அல்ல</string>
     <string name="network_type_any">ஏதேனும்</string>
     <string name="network_type_title">அனுமதிக்கப்பட்ட வலையமைப்பு</string>
     <string name="channel_stable">நிலையானது</string>
@@ -23,4 +23,7 @@
     <string name="notification_channel_progress">புதுப்பிப்பு முன்னேற்றம்</string>
     <string name="notification_channel">மறுதொடக்கம் செய்யுங்கள்</string>
     <string name="app_name">கணினி புதுப்பிப்பான்</string>
+    <string name="channel_title">வெளியீட்டு சேனல்</string>
+    <string name="channel_beta">பீட்டா</string>
+    <string name="channel_security_express">பாதுகாப்பு எக்ச்பிரச்</string>
 </resources>
