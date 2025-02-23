@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">سىستېما يېڭىلىغۇچ</string>
+    <string name="notification_channel">قايتا قوزغىتىش ئەسكەرتىشى</string>
+    <string name="notification_channel_progress">يېڭىلاش جەريانى</string>
+    <string name="notification_download_title">سىستېما يېڭىلىنىشىنى چۈشۈرۈۋاتىدۇ</string>
+    <string name="notification_reboot_action">قايتا قوزغات</string>
+    <string name="notification_reboot_action_legacy">قايتا قوزغات ۋە ئورنات</string>
+    <string name="settings_title">سىستېما يېڭىلاش تەڭشىكى</string>
+    <string name="channel_title">تارقىتىش قانىلى</string>
+    <string name="notification_install_title">سىستېما يېڭىلاشنى ئورنىتىۋاتىدۇ</string>
+    <string name="notification_title">يېڭىلاش مۇۋەپپەقىيەتلىك ئورنىتىلدى</string>
+    <string name="notification_title_legacy">يېڭىلاش مۇۋەپپەقىيەتلىك چۈشۈرۈلدى</string>
+    <string name="notification_text">ئەڭ يېڭى مەشغۇلات سىستېمىسىنىڭ نەشرىنى ئىجرا قىلىش ئۈچۈن ئۈسكۈنىنى قايتا قوزغىتىڭ.</string>
+    <string name="notification_text_legacy">ئەڭ يېڭى مەشغۇلات سىستېمىسىنىڭ نەشرىنى ئورنىتىڭ.</string>
+    <string name="channel_security_express">بىخەتەرلىك تېز يەتكۈزۈش</string>
+    <string name="channel_stable">مۇقىم</string>
+    <string name="channel_beta">سىناق</string>
+    <string name="network_type_title">ئىجازەتلىك تور</string>
+    <string name="network_type_any">خالىغان</string>
+    <string name="network_type_not_roaming">كەزمە ئەمەس</string>
+    <string name="network_type_unmetered">سانلىق مەلۇمات ئېقىمى بولغاندا چەكلەيدۇ</string>
+    <string name="battery_not_low_title">توكدان مىقدارى ئاگاھلاندۇرۇش سەۋىيەسى تەلىپى</string>
+    <string name="battery_not_low_summary">توكدان مىقدارى ئاگاھلاندۇرۇش سەۋىيەسىدىن يۇقىرى بولغاندىلا ئاندىن يېڭىلاشنى چۈشۈرىدۇ/ئورنىتىدۇ</string>
+    <string name="idle_reboot_title">ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
+    <string name="idle_reboot_summary">يېڭىلاشنى مۇۋەپپەقىيەتلىك ئورناتقاندىن كېيىن ئۈسكۈنە بىكار بولسا ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
+    <string name="check_for_updates_title">يېڭىلاش تەكشۈر</string>
+    <string name="check_for_updates_summary">چېكىلسە ئامالنىڭ بارىچە تېزلىكتە يېڭىلاشنى تەكشۈرىدۇ</string>
+</resources>
