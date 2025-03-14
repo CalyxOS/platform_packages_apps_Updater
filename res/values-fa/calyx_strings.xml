@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">تغییرات در دسترس نمی باشد</string>
+    <string name="notification_initial_title">سرویس به روز رسانی سیستم</string>
+    <string name="changelog_title">تغییرات</string>
+    <string name="changelog_summary">برای دیدن تغییرات ضربه بزنید</string>
+</resources>

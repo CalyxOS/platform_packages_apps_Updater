@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="channel_title">Kiadási csatorna</string>
+    <string name="settings_title">Rendszer frissítési beállítások</string>
+    <string name="notification_reboot_action_legacy">Újraindítás és telepítés</string>
+    <string name="notification_text">Kérem indítsa újra a készüléket a legfrissebb rendszer verzió alkalmazásához.</string>
+    <string name="notification_install_title">Rendszer frissítés telepítése</string>
+    <string name="notification_channel">Újraindítás felhívás</string>
+    <string name="notification_download_title">Rendszer frissítés letöltése</string>
+    <string name="network_type_not_roaming">Nem roaming</string>
+    <string name="network_type_title">Engedélyezett hálózatok</string>
+    <string name="channel_security_express">Biztonsági gyorsjárat</string>
+    <string name="notification_title_legacy">Frissítése sikeresen letöltve</string>
+    <string name="app_name">Rendszer frissítő</string>
+    <string name="network_type_unmetered">Nem mért</string>
+    <string name="notification_channel_progress">Frissítési előrehaladása</string>
+    <string name="battery_not_low_title">Figyelmeztetés szint feletti akku szint szükséges</string>
+    <string name="notification_text_legacy">Kérem telepítse a legfrissebb rendszer kiadást.</string>
+    <string name="notification_reboot_action">Újraindítás</string>
+    <string name="notification_title">Frissítés sikeresen telepítve</string>
+    <string name="channel_beta">Béta</string>
+    <string name="check_for_updates_summary">Koppintson, hogy a lehető leghamarabb ellenőrizze a frissítések meglétét</string>
+    <string name="channel_stable">Stabil</string>
+    <string name="battery_not_low_summary">Csak akkor töltsön / telepítsen frissítéseket, ha a töltöttség a figyelmeztetési szint felett van</string>
+    <string name="idle_reboot_title">Automatikus újraindítás</string>
+    <string name="idle_reboot_summary">Automatikusan indítsa újra ha a sikeres frissítés után üresjáratba kerül az eszköz</string>
+    <string name="check_for_updates_title">Frissítések keresése</string>
+    <string name="network_type_any">Bármely</string>
+</resources>

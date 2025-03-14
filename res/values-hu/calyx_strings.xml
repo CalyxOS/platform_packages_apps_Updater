@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_unavailable">Változásnapló nem elérhető</string>
+    <string name="changelog_summary">Koppintson a változásnaplóért</string>
+    <string name="changelog_title">Változásnapló</string>
+    <string name="notification_initial_title">Rendszer frissítés szolgáltatás</string>
+</resources>
