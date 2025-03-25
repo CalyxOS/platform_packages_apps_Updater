@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">System updater</string>
+    <string name="final_update_title">End of CalyxOS support</string>
+    <string name="final_update_text">Updates have stopped</string>
+    <string name="final_update_text_long">This device has stopped receiving updates, including security updates. Please consider newer devices for continued support. Tap for more details.</string>
+    <string name="final_update_info_url" translatable="false">https://calyxos.org/pixel34eol</string>
+    <string name="final_update_notification_channel">@string/final_update_title</string>
     <string name="notification_channel">Reboot prompt</string>
     <string name="notification_channel_progress">Update progress</string>
     <string name="notification_download_title">Downloading system update</string>

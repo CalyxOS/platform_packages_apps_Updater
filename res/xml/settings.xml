@@ -4,6 +4,10 @@
         android:title="@string/settings_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference android:key="final_update"
+        android:title="@string/final_update_title"
+        android:summary="@string/final_update_text_long" />
+
     <Preference android:key="check_for_updates"
             android:title="@string/check_for_updates_title"
             android:summary="@string/check_for_updates_summary" />

@@ -12,6 +12,7 @@ import android.support.v4.content.FileProvider;
 
 import java.io.File;
 
+import static android.app.Notification.CATEGORY_SYSTEM;
 import static android.app.NotificationManager.IMPORTANCE_LOW;
 import static app.seamlessupdate.client.Service.isAbUpdate;
 
@@ -21,8 +22,10 @@ public class NotificationHandler {
     private static final int NOTIFICATION_ID_INSTALL = 2;
     private static final int NOTIFICATION_ID_REBOOT = 3;
     public static final int NOTIFICATION_ID_INITIAL = 4;
+    private static final int NOTIFICATION_ID_FINAL_UPDATE = 5;
     private static final String NOTIFICATION_CHANNEL_ID = "updates2";
     public static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
+    private static final String NOTIFICATION_CHANNEL_ID_FINAL_UPDATE = "final_update";
     private static final int PENDING_REBOOT_ID = 1;
     private static final int PENDING_SETTINGS_ID = 2;
     private static final int PENDING_CHANGELOG_ID = 3;
@@ -90,6 +93,31 @@ public class NotificationHandler {
         notificationManager.notify(NOTIFICATION_ID_INSTALL, builder.build());
     }
 
+    void showFinalUpdateNotification() {
+        final String title = context.getString(R.string.final_update_title);
+        final String text = context.getString(R.string.final_update_text);
+
+        final String longDescription =
+                context.getString(R.string.final_update_text_long);
+
+        final NotificationChannel channel = new NotificationChannel(
+                NOTIFICATION_CHANNEL_ID_FINAL_UPDATE,
+                context.getString(R.string.final_update_notification_channel),
+                NotificationManager.IMPORTANCE_LOW);
+        channel.setBlockable(true);
+        notificationManager.createNotificationChannel(channel);
+        Notification.Builder builder =
+                new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_FINAL_UPDATE)
+                        .setContentIntent(getFinalUpdatePendingIntent())
+                        .setContentTitle(title)
+                        .setContentText(text)
+                        .setStyle(new Notification.BigTextStyle().bigText(longDescription))
+                        .setCategory(CATEGORY_SYSTEM)
+                        .setOngoing(true)
+                        .setSmallIcon(R.drawable.ic_system_update_white_24dp);
+        notificationManager.notify(NOTIFICATION_ID_FINAL_UPDATE, builder.build());
+    }
+
     void cancelInstallNotification() {
         notificationManager.cancel(NOTIFICATION_ID_INSTALL);
     }
@@ -107,6 +135,16 @@ public class NotificationHandler {
         } else {
             return null;
         }
+    }
+
+    public static Intent getFinalUpdateIntent(final Context context) {
+        final String finalUpdateInfoUrl = context.getString(R.string.final_update_info_url);
+        return new Intent(Intent.ACTION_VIEW, Uri.parse(finalUpdateInfoUrl));
+    }
+
+    private PendingIntent getFinalUpdatePendingIntent() {
+        return PendingIntent.getActivity(context, 0, getFinalUpdateIntent(context),
+                PendingIntent.FLAG_IMMUTABLE);
     }
 
 }
