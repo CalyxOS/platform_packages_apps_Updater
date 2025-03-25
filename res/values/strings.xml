@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">System updater</string>
+    <string name="final_update_title">Critical notice for CalyxOS updates</string>
+    <string name="final_update_text">System updates and security patches have stopped.</string>
+    <string name="final_update_text_long">System updates and security patches have stopped. You'll be required to reinstall CalyxOS in the coming months when our next release is available. Tap for more details.</string>
+    <string name="final_update_info_url" translatable="false">https://calyxos.org/news/2025/08/01/a-letter-to-our-community/</string>
+    <string name="final_update_notification_channel">@string/final_update_title</string>
     <string name="notification_channel">Reboot prompt</string>
     <string name="notification_channel_progress">Update progress</string>
     <string name="notification_download_title">Downloading system update</string>
