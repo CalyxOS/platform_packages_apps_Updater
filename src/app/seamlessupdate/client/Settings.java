@@ -16,6 +16,7 @@ import android.support.v4.content.FileProvider;
 import java.io.File;
 
 public class Settings extends PreferenceActivity {
+    private static final String KEY_FINAL_UPDATE = "final_update";
     private static final String KEY_CHANNEL = "channel";
     private static final String KEY_NETWORK_TYPE = "network_type";
     private static final String KEY_BATTERY_NOT_LOW = "battery_not_low";
@@ -73,6 +74,12 @@ public class Settings extends PreferenceActivity {
         getPreferenceManager().setStorageDeviceProtected();
         PreferenceManager.setDefaultValues(createDeviceProtectedStorageContext(), R.xml.settings, false);
         addPreferencesFromResource(R.xml.settings);
+
+        final Preference finalUpdate = findPreference(KEY_FINAL_UPDATE);
+        finalUpdate.setOnPreferenceClickListener((final Preference preference) -> {
+            startActivity(NotificationHandler.getFinalUpdateIntent(this));
+            return true;
+        });
 
         final Preference checkForUpdates = findPreference(KEY_CHECK_FOR_UDPATES);
         checkForUpdates.setOnPreferenceClickListener((final Preference preference) -> {
