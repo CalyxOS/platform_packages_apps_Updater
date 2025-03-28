@@ -39,6 +39,13 @@ public class NotificationHandler {
         createProgressNotificationChannel();
     }
 
+    void cancelAllUpdateNotifications() {
+        notificationManager.cancel(NOTIFICATION_ID_DOWNLOAD);
+        notificationManager.cancel(NOTIFICATION_ID_INSTALL);
+        notificationManager.cancel(NOTIFICATION_ID_REBOOT);
+        notificationManager.cancel(NOTIFICATION_ID_INITIAL);
+    }
+
     void cancelInitialNotification() {
         notificationManager.cancel(NOTIFICATION_ID_INITIAL);
     }
