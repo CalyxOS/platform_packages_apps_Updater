@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_title">ئۆزگىرىش خاتىرىسى</string>
+    <string name="changelog_summary">چېكىلسە ئۆزگىرىش خاتىرىسىنى كۆرسىتىدۇ</string>
+    <string name="changelog_unavailable">ئۆزگىرىش خاتىرىسىنى ئىشلەتكىلى بولمايدۇ</string>
+    <string name="notification_initial_title">سىستېما يېڭىلاش مۇلازىمىتى</string>
+</resources>

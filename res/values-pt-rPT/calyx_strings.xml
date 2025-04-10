@@ -2,4 +2,6 @@
 <resources>
     <string name="changelog_unavailable">Changelog indisponível</string>
     <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Toque para visualizar a lista de mudanças</string>
+    <string name="notification_initial_title">Serviço de atualização do sistema</string>
 </resources>
