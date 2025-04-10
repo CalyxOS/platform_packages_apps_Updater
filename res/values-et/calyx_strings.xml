@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_initial_title">Süsteemi uuendusteenus</string>
+    <string name="changelog_title">Muudatuste logi</string>
+    <string name="changelog_unavailable">Muudatuste logi pole saadaval</string>
+    <string name="changelog_summary">Puuduta muudatuste logi vaatamiseks</string>
+</resources>
