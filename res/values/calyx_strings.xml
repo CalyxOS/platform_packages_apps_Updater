@@ -4,4 +4,11 @@
     <string name="changelog_summary">Tap to view changelog</string>
     <string name="changelog_unavailable">Changelog unavailable</string>
     <string name="notification_initial_title">System update service</string>
+    <string name="legacy_settings_title">Legacy system update settings</string>
+    <string name="legacy_updater_notice_title"><b>New updater has arrived</b></string>
+    <string name="legacy_updater_notice_summary"><b>The settings on this page apply only to the legacy updater, which is now used for fallback purposes.\n\nTap here to open the new updater.</b></string>
+    <string name="new_updater_title">Check your update settings</string>
+    <string name="new_updater_text">System updater has new changes</string>
+    <string name="new_updater_text_long">Your update settings were reset as part of a system improvement. Tap to change channel or network preferences.</string>
+    <string name="new_updater_notification_channel">@string/new_updater_title</string>
 </resources>

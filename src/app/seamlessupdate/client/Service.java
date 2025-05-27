@@ -66,7 +66,7 @@ public class Service extends IntentService {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        getApplicationContext().getSystemService(NotificationManager.class).cancelAll();
+        notificationHandler.cancelAllUpdateNotifications();
         startForeground(NotificationHandler.NOTIFICATION_ID_INITIAL,
                     new Notification.Builder(getApplicationContext(),
                     NotificationHandler.NOTIFICATION_CHANNEL_ID_PROGRESS)
