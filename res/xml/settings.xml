@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/settings_title"
+        android:title="@string/legacy_settings_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference android:key="legacy_updater_notice"
+        android:title="@string/legacy_updater_notice_title"
+        android:summary="@string/legacy_updater_notice_summary" />
 
     <Preference android:key="check_for_updates"
             android:title="@string/check_for_updates_title"
