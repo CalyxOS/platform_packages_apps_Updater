@@ -16,6 +16,7 @@ import android.support.v4.content.FileProvider;
 import java.io.File;
 
 public class Settings extends PreferenceActivity {
+    private static final String KEY_LEGACY_UPDATER_NOTICE = "legacy_updater_notice";
     private static final String KEY_CHANNEL = "channel";
     private static final String KEY_NETWORK_TYPE = "network_type";
     private static final String KEY_BATTERY_NOT_LOW = "battery_not_low";
@@ -23,6 +24,7 @@ public class Settings extends PreferenceActivity {
     private static final String KEY_CHECK_FOR_UDPATES = "check_for_updates";
     private static final String KEY_CHANGELOG = "changelog";
     static final String KEY_WAITING_FOR_REBOOT = "waiting_for_reboot";
+    static final String KEY_LEGACY_UPDATER_NOTIFICATION_SHOWN = "legacy_updater_notification_shown";
 
     static SharedPreferences getPreferences(final Context context) {
         final Context deviceContext = context.createDeviceProtectedStorageContext();
@@ -56,6 +58,42 @@ public class Settings extends PreferenceActivity {
         return getPreferences(context).getBoolean(KEY_IDLE_REBOOT, def);
     }
 
+    static boolean shouldShowNewUpdaterNotification(final Context context) {
+        final SharedPreferences prefs = getPreferences(context);
+        if (!prefs.getBoolean(KEY_LEGACY_UPDATER_NOTIFICATION_SHOWN, false)
+                && hasCustomizations(context, prefs)) {
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean hasCustomizations(final Context context, final SharedPreferences prefs) {
+        final String defChannel = context.getString(R.string.channel_default);
+        if (!defChannel.equals(getChannel(context))) {
+            return true;
+        }
+
+        final int defNetworkType = Integer.valueOf(context.getString(R.string.network_type_default));
+        if (getNetworkType(context) != defNetworkType) {
+            return true;
+        }
+
+        // The new updater does not support these, so don't consider them.
+        /*
+        final boolean defBatteryNotLow = Boolean.valueOf(context.getString(R.string.battery_not_low_default));
+        if (getBatteryNotLow(context) != defBatteryNotLow) {
+            return true;
+        }
+
+        final boolean defIdleReboot = Boolean.valueOf(context.getString(R.string.idle_reboot_default));
+        if (getIdleReboot(context) != defIdleReboot) {
+            return true;
+        }
+        */
+
+        return false;
+    }
+
     void refreshChannelSummary() {
         final Preference channelPref = findPreference(KEY_CHANNEL);
         final String currentChannel = getChannel(this);
@@ -73,6 +111,12 @@ public class Settings extends PreferenceActivity {
         getPreferenceManager().setStorageDeviceProtected();
         PreferenceManager.setDefaultValues(createDeviceProtectedStorageContext(), R.xml.settings, false);
         addPreferencesFromResource(R.xml.settings);
+
+        final Preference legacyUpdaterNotice = findPreference(KEY_LEGACY_UPDATER_NOTICE);
+        legacyUpdaterNotice.setOnPreferenceClickListener((final Preference preference) -> {
+            startActivity(NotificationHandler.getNewUpdaterSettingsIntent(this));
+            return true;
+        });
 
         final Preference checkForUpdates = findPreference(KEY_CHECK_FOR_UDPATES);
         checkForUpdates.setOnPreferenceClickListener((final Preference preference) -> {

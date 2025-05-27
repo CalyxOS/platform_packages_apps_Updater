@@ -52,7 +52,7 @@
 
         <activity android:name=".Settings"
                 android:launchMode="singleTop"
-                android:label="@string/settings_title"
+                android:label="@string/legacy_settings_title"
                 android:excludeFromRecents="true"
                 android:directBootAware="true">
             <intent-filter>
