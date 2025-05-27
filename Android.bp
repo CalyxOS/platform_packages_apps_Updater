@@ -1,0 +1,35 @@
+android_app {
+    name: "Updater",
+
+    platform_apis: true,
+    srcs: ["src/**/*.java"],
+    required: [
+        "default-permissions_app.seamlessupdate.client.xml",
+        "permissions_app.seamlessupdate.client.xml",
+        "whitelist_app.seamlessupdate.client.xml",
+    ],
+    privileged: true,
+    static_libs: ["android-support-v4"],
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions_app.seamlessupdate.client.xml",
+    src: "default-permissions_app.seamlessupdate.client.xml",
+    relative_install_path: "default-permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "permissions_app.seamlessupdate.client.xml",
+    src: "permissions_app.seamlessupdate.client.xml",
+    relative_install_path: "permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_app.seamlessupdate.client.xml",
+    src: "whitelist_app.seamlessupdate.client.xml",
+    relative_install_path: "sysconfig",
+    system_ext_specific: true,
+}
