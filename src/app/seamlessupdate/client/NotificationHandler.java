@@ -12,6 +12,7 @@ import android.support.v4.content.FileProvider;
 
 import java.io.File;
 
+import static android.app.Notification.CATEGORY_SYSTEM;
 import static android.app.NotificationManager.IMPORTANCE_LOW;
 import static app.seamlessupdate.client.Service.isAbUpdate;
 
@@ -21,8 +22,10 @@ public class NotificationHandler {
     private static final int NOTIFICATION_ID_INSTALL = 2;
     private static final int NOTIFICATION_ID_REBOOT = 3;
     public static final int NOTIFICATION_ID_INITIAL = 4;
+    private static final int NOTIFICATION_ID_NEW_UPDATER = 5;
     private static final String NOTIFICATION_CHANNEL_ID = "updates2";
     public static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
+    private static final String NOTIFICATION_CHANNEL_ID_NEW_UPDATER = "new_updater";
     private static final int PENDING_REBOOT_ID = 1;
     private static final int PENDING_SETTINGS_ID = 2;
     private static final int PENDING_CHANGELOG_ID = 3;
@@ -34,6 +37,13 @@ public class NotificationHandler {
         this.context = context;
         this.notificationManager = context.getSystemService(NotificationManager.class);
         createProgressNotificationChannel();
+    }
+
+    void cancelAllUpdateNotifications() {
+        notificationManager.cancel(NOTIFICATION_ID_DOWNLOAD);
+        notificationManager.cancel(NOTIFICATION_ID_INSTALL);
+        notificationManager.cancel(NOTIFICATION_ID_REBOOT);
+        notificationManager.cancel(NOTIFICATION_ID_INITIAL);
     }
 
     void cancelInitialNotification() {
@@ -90,6 +100,31 @@ public class NotificationHandler {
         notificationManager.notify(NOTIFICATION_ID_INSTALL, builder.build());
     }
 
+    void showNewUpdaterNotification() {
+        final String title = context.getString(R.string.new_updater_title);
+        final String text = context.getString(R.string.new_updater_text);
+
+        final String longDescription = context.getString(R.string.new_updater_text_long);
+
+        final NotificationChannel channel = new NotificationChannel(
+                NOTIFICATION_CHANNEL_ID_NEW_UPDATER,
+                context.getString(R.string.new_updater_notification_channel),
+                NotificationManager.IMPORTANCE_LOW);
+        channel.setBlockable(true);
+        notificationManager.createNotificationChannel(channel);
+        Notification.Builder builder =
+                new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_NEW_UPDATER)
+                        .setContentIntent(getNewUpdaterSettingsPendingIntent())
+                        .setContentTitle(title)
+                        .setContentText(text)
+                        .setStyle(new Notification.BigTextStyle().bigText(longDescription))
+                        .setCategory(CATEGORY_SYSTEM)
+                        .setOngoing(true)
+                        .setAutoCancel(true)
+                        .setSmallIcon(R.drawable.ic_system_update_white_24dp);
+        notificationManager.notify(NOTIFICATION_ID_NEW_UPDATER, builder.build());
+    }
+
     void cancelInstallNotification() {
         notificationManager.cancel(NOTIFICATION_ID_INSTALL);
     }
@@ -107,6 +142,19 @@ public class NotificationHandler {
         } else {
             return null;
         }
+    }
+
+    public static Intent getNewUpdaterSettingsIntent(final Context context) {
+        return new Intent("android.settings.SYSTEM_UPDATE_SETTINGS")
+                .setPackage("org.calyxos.systemupdater")
+                .setClassName(
+                        "org.calyxos.systemupdater",
+                        "org.calyxos.systemupdater.ui.MainActivity");
+    }
+
+    private PendingIntent getNewUpdaterSettingsPendingIntent() {
+        return PendingIntent.getActivity(context, 0, getNewUpdaterSettingsIntent(context),
+                PendingIntent.FLAG_IMMUTABLE);
     }
 
 }
