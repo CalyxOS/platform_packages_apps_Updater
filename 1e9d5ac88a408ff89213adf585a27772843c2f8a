@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed418425_4d022052",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-28T21:12:52Z",
+      "side": 1,
+      "message": "I almost forgot about that, woot.",
+      "range": {
+        "startLine": 15,
+        "startChar": 48,
+        "endLine": 15,
+        "endChar": 57
+      },
+      "revId": "1e9d5ac88a408ff89213adf585a27772843c2f8a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
