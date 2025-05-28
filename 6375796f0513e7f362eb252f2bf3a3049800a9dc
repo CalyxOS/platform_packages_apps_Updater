@@ -16,6 +16,24 @@
       "message": "We could add a line to this notification builder that makes the notification go away once it is tapped. Otherwise, it stays there until it is swiped away, even if you tap it.",
       "revId": "6375796f0513e7f362eb252f2bf3a3049800a9dc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c99c750c_6efdbc0c",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-28T15:18:15Z",
+      "side": 1,
+      "message": "Done by adding `setAutoCancel(true)`.",
+      "parentUuid": "cd410dd5_25579fb9",
+      "revId": "6375796f0513e7f362eb252f2bf3a3049800a9dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
