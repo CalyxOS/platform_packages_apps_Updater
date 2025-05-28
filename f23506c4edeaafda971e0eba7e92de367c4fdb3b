@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a73a5006_b798a82b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-28T15:15:54Z",
+      "side": 1,
+      "message": "This is optional and can be removed from relation chain once work is done.",
+      "revId": "f23506c4edeaafda971e0eba7e92de367c4fdb3b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
