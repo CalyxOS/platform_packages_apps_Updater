@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf11efc3_40c4eabd",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-28T20:57:22Z",
+      "side": 1,
+      "message": "This string needs to be adjusted. \"launched\" is confusing here; potentially sounds like the user is *currently looking at* the new updater, which is obviously not true.",
+      "revId": "5876e8cb15bf63bfa3e54043ddeecfbd5b8010e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25488411_5bea3a39",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-28T20:57:22Z",
+      "side": 1,
+      "message": "I think @aysha@calyxinstitute.org had a suggested change for this, and possibly the title above too. Screenshot of current patchset [here](https://gitlab.com/CalyxOS/calyxos/-/work_items/3258#note_2530558577).",
+      "revId": "5876e8cb15bf63bfa3e54043ddeecfbd5b8010e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
