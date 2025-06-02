@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "765503f9_04e3b249",
+        "filename": "src/app/seamlessupdate/client/Settings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-06-02T15:56:32Z",
+      "side": 1,
+      "message": "It does/will support these.",
+      "revId": "6df68a283aa27e90422a80b00daef6adb32f01a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
