@@ -75,6 +75,24 @@
       "parentUuid": "151b2e54_068f290c",
       "revId": "1e9d5ac88a408ff89213adf585a27772843c2f8a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c69db2e3_fcbba084",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-06-02T15:00:54Z",
+      "side": 1,
+      "message": "Done, I see it\u0027s intended.",
+      "parentUuid": "9f9f75a4_515b90bc",
+      "revId": "1e9d5ac88a408ff89213adf585a27772843c2f8a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
