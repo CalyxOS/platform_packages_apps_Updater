@@ -39,6 +39,24 @@
       "message": "```\n.setData(Uri.parse(\"systemupdater://settings\"))\n\n```",
       "revId": "1e9d5ac88a408ff89213adf585a27772843c2f8a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "151b2e54_068f290c",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2025-06-02T08:20:07Z",
+      "side": 1,
+      "message": "Ref: I6997285970d56e090c4f44931e13a8ca765b2b33",
+      "parentUuid": "b911a582_28f49af7",
+      "revId": "1e9d5ac88a408ff89213adf585a27772843c2f8a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
