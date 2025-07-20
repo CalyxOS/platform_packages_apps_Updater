@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_title">Спіс змен</string>
+    <string name="changelog_summary">Націсніце, каб праглядзець змены</string>
+    <string name="changelog_unavailable">Спіс змен недаступны</string>
+    <string name="notification_initial_title">Сэрвіс абнаўлення сістэмы</string>
+</resources>
