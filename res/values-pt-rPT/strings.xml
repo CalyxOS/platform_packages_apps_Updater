@@ -23,6 +23,6 @@
     <string name="channel_title">Canal de lançamento</string>
     <string name="settings_title">Definições de atualização do sistema</string>
     <string name="notification_title">Atualização instalada com sucesso</string>
-    <string name="notification_install_title">Instalando atualização do sistema</string>
+    <string name="notification_install_title">A instalar a atualização do sistema</string>
     <string name="notification_channel_progress">Progresso de atualização</string>
 </resources>
