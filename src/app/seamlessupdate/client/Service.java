@@ -48,6 +48,7 @@ public class Service extends IntentService {
     private static final int HTTP_RANGE_NOT_SATISFIABLE = 416;
 
     private NotificationHandler notificationHandler;
+    private DynamicNotifier dynamicNotifier;
     private boolean mUpdating = false;
 
     public Service() {
@@ -62,6 +63,7 @@ public class Service extends IntentService {
     public void onCreate() {
         super.onCreate();
         notificationHandler = new NotificationHandler(this);
+        dynamicNotifier = new DynamicNotifier(notificationHandler);
     }
 
     @Override
@@ -259,6 +261,7 @@ public class Service extends IntentService {
 
             final String channel = SystemProperties.get("sys.update.channel", Settings.getChannel(this));
 
+            dynamicNotifier.checkAndNotify();
             Log.d(TAG, "fetching metadata for " + DEVICE + "-" + channel);
             InputStream input = fetchData(DEVICE + "-" + channel).getInputStream();
             final BufferedReader reader = new BufferedReader(new InputStreamReader(input));

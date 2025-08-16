@@ -8,6 +8,7 @@
     <string name="final_update_notification_channel">@string/final_update_title</string>
     <string name="notification_channel">Reboot prompt</string>
     <string name="notification_channel_progress">Update progress</string>
+    <string name="notification_channel_reinstall">CalyxOS reinstall available</string>
     <string name="notification_download_title">Downloading system update</string>
     <string name="notification_install_title">Installing system update</string>
     <string name="notification_title">Update successfully installed</string>
