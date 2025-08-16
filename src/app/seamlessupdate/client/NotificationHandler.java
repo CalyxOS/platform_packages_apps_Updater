@@ -23,6 +23,7 @@ public class NotificationHandler {
     private static final int NOTIFICATION_ID_REBOOT = 3;
     public static final int NOTIFICATION_ID_INITIAL = 4;
     private static final int NOTIFICATION_ID_FINAL_UPDATE = 5;
+    private static final int NOTIFICATION_ID_REINSTALL = 6;
     private static final String NOTIFICATION_CHANNEL_ID = "updates2";
     public static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
     private static final String NOTIFICATION_CHANNEL_ID_FINAL_UPDATE = "final_update";
@@ -123,6 +124,26 @@ public class NotificationHandler {
                         .setOngoing(true)
                         .setSmallIcon(R.drawable.ic_system_update_white_24dp);
         notificationManager.notify(NOTIFICATION_ID_FINAL_UPDATE, builder.build());
+    }
+
+    void showReinstallNotification(String title, String text, String url) {
+        final NotificationChannel channel = new NotificationChannel(
+                NOTIFICATION_CHANNEL_ID_FINAL_UPDATE,
+                context.getString(R.string.final_update_notification_channel),
+                NotificationManager.IMPORTANCE_LOW);
+        channel.setBlockable(true);
+        notificationManager.createNotificationChannel(channel);
+        Notification.Builder builder =
+                new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_FINAL_UPDATE)
+                        .setContentIntent(getFinalUpdatePendingIntent())
+                        .setContentTitle(title)
+                        .setContentText(text)
+                        .setCategory(CATEGORY_SYSTEM)
+                        .setPriority(Notification.PRIORITY_HIGH)
+                        .setOngoing(true)
+                        .setSmallIcon(R.drawable.ic_system_update_white_24dp);
+        notificationManager.cancel(NOTIFICATION_ID_FINAL_UPDATE);
+        notificationManager.notify(NOTIFICATION_ID_REINSTALL, builder.build());
     }
 
     void cancelInstallNotification() {
