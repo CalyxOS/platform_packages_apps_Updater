@@ -4,13 +4,9 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.content.FileProvider;
-
-import java.io.File;
 
 import static android.app.Notification.CATEGORY_SYSTEM;
 import static android.app.NotificationManager.IMPORTANCE_LOW;
@@ -23,9 +19,11 @@ public class NotificationHandler {
     private static final int NOTIFICATION_ID_REBOOT = 3;
     public static final int NOTIFICATION_ID_INITIAL = 4;
     private static final int NOTIFICATION_ID_FINAL_UPDATE = 5;
+    private static final int NOTIFICATION_ID_REINSTALL = 6;
     private static final String NOTIFICATION_CHANNEL_ID = "updates2";
     public static final String NOTIFICATION_CHANNEL_ID_PROGRESS = "progress";
     private static final String NOTIFICATION_CHANNEL_ID_FINAL_UPDATE = "final_update";
+    private static final String NOTIFICATION_CHANNEL_ID_REINSTALL = "reinstall";
     private static final int PENDING_REBOOT_ID = 1;
     private static final int PENDING_SETTINGS_ID = 2;
     private static final int PENDING_CHANGELOG_ID = 3;
@@ -125,6 +123,27 @@ public class NotificationHandler {
         notificationManager.notify(NOTIFICATION_ID_FINAL_UPDATE, builder.build());
     }
 
+    void showReinstallNotification(String title, String text, String url) {
+        final NotificationChannel channel = new NotificationChannel(
+                NOTIFICATION_CHANNEL_ID_REINSTALL,
+                context.getString(R.string.notification_channel_reinstall),
+                NotificationManager.IMPORTANCE_HIGH);
+        channel.setBlockable(true);
+        channel.setSound(null, null);
+        notificationManager.createNotificationChannel(channel);
+        Notification.Builder builder =
+                new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_REINSTALL)
+                        .setContentIntent(getReinstallPendingIntent(url))
+                        .setContentTitle(title)
+                        .setContentText(text)
+                        .setStyle(new Notification.BigTextStyle().bigText(text))
+                        .setCategory(CATEGORY_SYSTEM)
+                        .setOngoing(true)
+                        .setSmallIcon(R.drawable.ic_restart);
+        notificationManager.cancel(NOTIFICATION_ID_FINAL_UPDATE);
+        notificationManager.notify(NOTIFICATION_ID_REINSTALL, builder.build());
+    }
+
     void cancelInstallNotification() {
         notificationManager.cancel(NOTIFICATION_ID_INSTALL);
     }
@@ -152,6 +171,11 @@ public class NotificationHandler {
     private PendingIntent getFinalUpdatePendingIntent() {
         return PendingIntent.getActivity(context, 0, getFinalUpdateIntent(context),
                 PendingIntent.FLAG_IMMUTABLE);
+    }
+
+    private PendingIntent getReinstallPendingIntent(String url) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE);
     }
 
 }
