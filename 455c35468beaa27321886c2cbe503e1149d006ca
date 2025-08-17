@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8cc55c5_59d57b4f",
+        "filename": "src/app/seamlessupdate/client/DynamicNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2025-08-17T08:41:37Z",
+      "side": 1,
+      "message": "Needs to handled in production server",
+      "range": {
+        "startLine": 14,
+        "startChar": 39,
+        "endLine": 14,
+        "endChar": 65
+      },
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1903a64_bc26562a",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2025-08-17T08:41:37Z",
+      "side": 1,
+      "message": "I feel the importance should be high",
+      "range": {
+        "startLine": 133,
+        "startChar": 36,
+        "endLine": 133,
+        "endChar": 50
+      },
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
