@@ -26,6 +26,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "563fdc3a_b21f912e",
+        "filename": "src/app/seamlessupdate/client/DynamicNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-18T15:53:31Z",
+      "side": 1,
+      "message": "Can we read a line for the \"big text\" too and pass it along as well? See other comment.",
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a1903a64_bc26562a",
         "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
         "patchSetId": 1
@@ -43,6 +60,23 @@
         "endLine": 133,
         "endChar": 50
       },
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8298490f_f57e3732",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-18T15:53:31Z",
+      "side": 1,
+      "message": "Suggest that we also support a long text here, and ContentText is the \"short text\".\n\n`.setStyle(new Notification.BigTextStyle().bigText(longDescription))`",
       "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
