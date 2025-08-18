@@ -24,6 +24,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "27154de2_f6e714bd",
+        "filename": "src/app/seamlessupdate/client/DynamicNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-18T17:25:18Z",
+      "side": 1,
+      "message": "changed to what most likely will be the final url",
+      "parentUuid": "f8cc55c5_59d57b4f",
+      "range": {
+        "startLine": 14,
+        "startChar": 39,
+        "endLine": 14,
+        "endChar": 65
+      },
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "563fdc3a_b21f912e",
@@ -64,6 +88,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0a85403_98371ea2",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-18T17:25:18Z",
+      "side": 1,
+      "message": "done and removed the sound that would otherwise play.",
+      "parentUuid": "a1903a64_bc26562a",
+      "range": {
+        "startLine": 133,
+        "startChar": 36,
+        "endLine": 133,
+        "endChar": 50
+      },
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8298490f_f57e3732",
@@ -77,6 +125,24 @@
       "writtenOn": "2025-08-18T15:53:31Z",
       "side": 1,
       "message": "Suggest that we also support a long text here, and ContentText is the \"short text\".\n\n`.setStyle(new Notification.BigTextStyle().bigText(longDescription))`",
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb0c5010_ab90cac1",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-18T17:25:18Z",
+      "side": 1,
+      "message": "done, though I just used the same long text everywhere.",
+      "parentUuid": "8298490f_f57e3732",
       "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
