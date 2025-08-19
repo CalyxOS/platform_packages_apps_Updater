@@ -118,6 +118,7 @@ public class NotificationHandler {
                         .setContentText(text)
                         .setStyle(new Notification.BigTextStyle().bigText(longDescription))
                         .setCategory(CATEGORY_SYSTEM)
+                        .setVisibility(Notification.VISIBILITY_SECRET)
                         .setOngoing(true)
                         .setSmallIcon(R.drawable.ic_system_update_white_24dp);
         notificationManager.notify(NOTIFICATION_ID_FINAL_UPDATE, builder.build());
@@ -138,6 +139,7 @@ public class NotificationHandler {
                         .setContentText(text)
                         .setStyle(new Notification.BigTextStyle().bigText(text))
                         .setCategory(CATEGORY_SYSTEM)
+                        .setVisibility(Notification.VISIBILITY_SECRET)
                         .setOngoing(true)
                         .setSmallIcon(R.drawable.ic_restart);
         notificationManager.cancel(NOTIFICATION_ID_FINAL_UPDATE);
