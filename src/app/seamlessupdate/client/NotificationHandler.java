@@ -108,8 +108,9 @@ public class NotificationHandler {
         final NotificationChannel channel = new NotificationChannel(
                 NOTIFICATION_CHANNEL_ID_FINAL_UPDATE,
                 context.getString(R.string.final_update_notification_channel),
-                NotificationManager.IMPORTANCE_LOW);
+                NotificationManager.IMPORTANCE_HIGH);
         channel.setBlockable(true);
+        channel.setSound(null, null);
         notificationManager.createNotificationChannel(channel);
         Notification.Builder builder =
                 new Notification.Builder(context, NOTIFICATION_CHANNEL_ID_FINAL_UPDATE)
