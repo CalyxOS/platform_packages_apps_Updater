@@ -65,6 +65,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "309ff055_740e24b3",
+        "filename": "src/app/seamlessupdate/client/DynamicNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-19T12:02:12Z",
+      "side": 1,
+      "message": "sounds like we are fine with not having an extra line.",
+      "parentUuid": "563fdc3a_b21f912e",
+      "revId": "455c35468beaa27321886c2cbe503e1149d006ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a1903a64_bc26562a",
