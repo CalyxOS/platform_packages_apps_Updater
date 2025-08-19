@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ac45c31_b3d60219",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-19T19:29:18Z",
+      "side": 1,
+      "message": "I say \"works\" based on `dumpsys jobscheduler` output. I didn\u0027t wait 12 hours.",
+      "revId": "3b96a3158cf452ab2cb919a871a2ca6deb53dcfe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
