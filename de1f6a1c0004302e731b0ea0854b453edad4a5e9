@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75910661_5c713d2f",
+        "filename": "src/app/seamlessupdate/client/NotificationHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-20T13:37:59Z",
+      "side": 1,
+      "message": "Regarding this, I did try setLockscreenVisibility on the NotificationChannel, but it didn\u0027t take effect. Documentation does say only the system or notification ranker can use it. On the other hand, I was `adb install`ing for testing this, but I did try clearing data and various things so I assume it simply wasn\u0027t gonna work, but not 100% sure.\n\nIn any case, setting this on the notification itself worked.",
+      "revId": "de1f6a1c0004302e731b0ea0854b453edad4a5e9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
