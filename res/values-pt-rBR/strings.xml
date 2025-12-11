@@ -26,4 +26,9 @@
     <string name="notification_channel">Alerta de reinicialização</string>
     <string name="app_name">Atualizador do sistema</string>
     <string name="channel_security_express">Express segurança</string>
+    <string name="final_update_title">Comunicação importante sobre atualizações do CalyxOS</string>
+    <string name="final_update_text">As atualizações do sistema e as correções de segurança pararam.</string>
+    <string name="final_update_text_long">As atualizações do sistema e correções de segurança pararam. Você precisará reinstalar o CalyxOS nos próximos meses quando nosso próximo lançamento estiver pronto. Toque para mais detalhes.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">Reinstalação do CalyxOS disponível</string>
 </resources>
