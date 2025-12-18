@@ -26,4 +26,9 @@
     <string name="notification_text">Proszę zrestartować urządzenie, aby korzystać z najnowszej wersji systemu.</string>
     <string name="notification_title_legacy">Aktualizacja pomyślnie pobrana</string>
     <string name="channel_security_express">Security express</string>
+    <string name="final_update_title">Ważna informacja dotycząca aktualizacji systemu CalyxOS</string>
+    <string name="final_update_text">Aktualizacje systemu i poprawki zabezpieczeń zostały wstrzymane.</string>
+    <string name="final_update_text_long">Aktualizacje systemu i poprawki zabezpieczeń zostały wstrzymane. W najbliższych miesiącach, gdy dostępna będzie kolejna wersja, konieczne będzie ponowne zainstalowanie systemu CalyxOS. Kliknij, aby uzyskać więcej informacji.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">Dostępna jest ponowna instalacja systemu CalyxOS</string>
 </resources>
