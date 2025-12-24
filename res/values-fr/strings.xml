@@ -26,4 +26,5 @@
     <string name="notification_channel">Invite de redémarrage</string>
     <string name="app_name">Mise à jour du système</string>
     <string name="channel_security_express">Sécurité express</string>
+    <string name="notification_channel_reinstall">Réinstallation de CalyxOS disponible</string>
 </resources>
