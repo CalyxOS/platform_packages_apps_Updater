@@ -26,4 +26,9 @@
     <string name="notification_channel">Eingabeaufforderung zum Neustart</string>
     <string name="app_name">Systemaktualisierung</string>
     <string name="channel_security_express">Sicherheitsexpress</string>
+    <string name="final_update_title">Wichtiger Hinweis zu CalyxOS-Updates</string>
+    <string name="final_update_text">Systemaktualisierungen und Sicherheitspatches wurden eingestellt.</string>
+    <string name="final_update_text_long">Systemaktualisierungen und Sicherheitspatches wurden eingestellt. In den kommenden Monaten wird eine Neuinstallation von CalyxOS erforderlich sein, sobald unsere nächste Version verfügbar ist. Tippe hier für weitere Details.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">CalyxOS-Neuinstallation verfügbar</string>
 </resources>

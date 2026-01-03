@@ -26,4 +26,9 @@
     <string name="idle_reboot_summary">يېڭىلاشنى مۇۋەپپەقىيەتلىك ئورناتقاندىن كېيىن ئۈسكۈنە بىكار بولسا ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
     <string name="check_for_updates_title">يېڭىلاش تەكشۈر</string>
     <string name="check_for_updates_summary">چېكىلسە ئامالنىڭ بارىچە تېزلىكتە يېڭىلاشنى تەكشۈرىدۇ</string>
+    <string name="final_update_title">Calyx مەشغۇلات سىستېمىسىنىڭ مۇھىم يېڭىلاش ئۇقتۇرۇشى</string>
+    <string name="final_update_text">سىستېما يېڭىلاش ۋە بىخەتەرلىك يامىقى تەمىنلەش توختىدى.</string>
+    <string name="final_update_text_long">سىستېما يېڭىلاش ۋە بىخەتەرلىك يامىقى تەمىنلەش توختىدى. كېيىنكى نەشرى ئېلان قىلىنغاندىن كېيىن، كەلگۈسىدىكى بىر قانچە ئايدا CalyxOS نى قايتا ئورنىتىشىڭىز كېرەك. تەپسىلاتى ئۈچۈن چېكىڭ.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">CalyxOS نى قايتا ئورناتقىلى بولىدۇ</string>
 </resources>

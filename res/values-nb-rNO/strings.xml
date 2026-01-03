@@ -22,7 +22,7 @@
     <string name="notification_download_title">Laster ned systemoppdatering…</string>
     <string name="notification_channel_progress">Oppdateringsframdrift</string>
     <string name="notification_channel">Omstartsforespørsel</string>
-    <string name="app_name">Sømløs oppdateringsklient</string>
+    <string name="app_name">System oppdatering</string>
     <string name="idle_reboot_title">Automatisk omstart</string>
     <string name="channel_beta">Beta</string>
 </resources>

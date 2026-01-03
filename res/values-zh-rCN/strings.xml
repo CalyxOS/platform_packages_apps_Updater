@@ -26,4 +26,8 @@
     <string name="network_type_not_roaming">漫游时禁用</string>
     <string name="channel_title">更新频道</string>
     <string name="channel_security_express">安全快递</string>
+    <string name="final_update_title">CalyxOS 更新重要通知</string>
+    <string name="final_update_text">系统更新和安全补丁已停止。</string>
+    <string name="final_update_text_long">系统更新和安全补丁已停止。当我们的下一个版本发布后，您需要在未来数月重新安装 CalyxOS。轻按查看更多详情。</string>
+    <string name="notification_channel_reinstall">可重新安装 CalyxOS</string>
 </resources>
