@@ -25,4 +25,5 @@
     <string name="check_for_updates_title">Periksa pembaruan</string>
     <string name="idle_reboot_summary">Mulai ulang secara otomatis ketika perangkat idle setelah berhasil menginstal pembaruan</string>
     <string name="check_for_updates_summary">Ketuk untuk memeriksa pembaruan</string>
+    <string name="channel_security_express">Pembaruan keamanan cepat</string>
 </resources>
