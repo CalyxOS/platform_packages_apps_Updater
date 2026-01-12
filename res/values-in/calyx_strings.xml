@@ -3,4 +3,5 @@
     <string name="changelog_summary">Ketuk untuk melihat daftar perubahan</string>
     <string name="changelog_title">Daftar perubahan</string>
     <string name="changelog_unavailable">Daftar perubahan tidak tersedia</string>
+    <string name="notification_initial_title">Layanan pembaruan sistem</string>
 </resources>

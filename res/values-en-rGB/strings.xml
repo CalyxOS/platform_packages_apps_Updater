@@ -26,4 +26,9 @@
     <string name="notification_text_legacy">Please install the latest OS release.</string>
     <string name="notification_download_title">Downloading system update</string>
     <string name="app_name">System updater</string>
+    <string name="final_update_title">Critical notice for CalyxOS updates</string>
+    <string name="final_update_text">System updates and security patches have stopped.</string>
+    <string name="final_update_text_long">System updates and security patches have stopped. You\'ll be required to reinstall CalyxOS in the coming months when our next release is available. Tap for more details.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">CalyxOS reinstall available</string>
 </resources>

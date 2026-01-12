@@ -25,4 +25,10 @@
     <string name="check_for_updates_title">Periksa pembaruan</string>
     <string name="idle_reboot_summary">Mulai ulang secara otomatis ketika perangkat idle setelah berhasil menginstal pembaruan</string>
     <string name="check_for_updates_summary">Ketuk untuk memeriksa pembaruan</string>
+    <string name="final_update_title">Pemberitahuan kritis untuk pembaruan CalyxOS</string>
+    <string name="final_update_text">Pembaruan sistem dan patch keamanan telah berhenti.</string>
+    <string name="final_update_text_long">Pembaruan sistem dan patch keamanan telah berhenti. Anda akan diwajibkan memasang ulang CalyxOS dalam beberapa bulan mendatang ketika rilis kami berikutnya tersedia. Ketuk untuk detail lebih lanjut.</string>
+    <string name="final_update_notification_channel">\@string/final_update_title</string>
+    <string name="notification_channel_reinstall">Pemasangan ulang CalyxOS tersedia</string>
+    <string name="channel_security_express">Pembaruan keamanan cepat</string>
 </resources>
