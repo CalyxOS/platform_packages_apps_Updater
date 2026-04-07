@@ -260,7 +260,7 @@ public class Service extends IntentService {
             final String channel = SystemProperties.get("sys.update.channel", Settings.getChannel(this));
 
             Log.d(TAG, "fetching metadata for " + DEVICE + "-" + channel);
-            InputStream input = fetchData(DEVICE + "-" + channel).getInputStream();
+            InputStream input = fetchData(DEVICE + "/" + DEVICE + "-" + channel).getInputStream();
             final BufferedReader reader = new BufferedReader(new InputStreamReader(input));
             final String[] metadata = reader.readLine().split(" ");
             reader.close();
@@ -273,6 +273,7 @@ public class Service extends IntentService {
                 mUpdating = false;
                 return;
             }
+            final String androidVersion = metadata[2];
 
             downloadChangelog(this, channel);
 
@@ -285,7 +286,7 @@ public class Service extends IntentService {
 
             if (incrementalUpdate.equals(downloadFile) || fullUpdate.equals(downloadFile)) {
                 Log.d(TAG, "resume fetch of " + downloadFile + " from " + downloaded + " bytes");
-                final HttpURLConnection connection = (HttpURLConnection) fetchData(downloadFile);
+                final HttpURLConnection connection = (HttpURLConnection) fetchData(DEVICE + "/" + androidVersion + "/" + downloadFile);
                 connection.setRequestProperty("Range", "bytes=" + downloaded + "-");
                 if (connection.getResponseCode() == HTTP_RANGE_NOT_SATISFIABLE) {
                     Log.d(TAG, "download completed previously");
@@ -298,13 +299,13 @@ public class Service extends IntentService {
                 try {
                     Log.d(TAG, "fetch incremental " + incrementalUpdate);
                     downloadFile = incrementalUpdate;
-                    final URLConnection connection = fetchData(downloadFile);
+                    final URLConnection connection = fetchData(DEVICE + "/" + androidVersion + "/" + downloadFile);
                     contentLength = connection.getContentLength();
                     input = connection.getInputStream();
                 } catch (IOException e) {
                     Log.d(TAG, "incremental not found, fetch full update " + fullUpdate);
                     downloadFile = fullUpdate;
-                    final URLConnection connection = fetchData(downloadFile);
+                    final URLConnection connection = fetchData(DEVICE + "/" + androidVersion + "/" + downloadFile);
                     contentLength = connection.getContentLength();
                     input = connection.getInputStream();
                 }
@@ -357,7 +358,7 @@ public class Service extends IntentService {
             final File changelogPath = new File(context.getCacheDir(), "changelog");
             final File changelogFile = new File(changelogPath, "current.html");
             changelogPath.mkdirs();
-            InputStream input = fetchData(changelogName).getInputStream();
+            InputStream input = fetchData(DEVICE + "/" + changelogName).getInputStream();
             final OutputStream output = new FileOutputStream(changelogFile);
             int bytesRead;
             final byte[] buffer = new byte[8192];
