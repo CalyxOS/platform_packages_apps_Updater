@@ -7,9 +7,9 @@
     </string-array>
 
     <string-array name="channel_values" translatable="false">
-        <item>security-express4</item>
-        <item>stable4</item>
-        <item>beta4</item>
+        <item>security-express</item>
+        <item>stable</item>
+        <item>beta</item>
     </string-array>
 
     <string-array name="network_type_entries" translatable="false">
