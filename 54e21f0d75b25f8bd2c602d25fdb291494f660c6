@@ -47,7 +47,7 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MIN"],"failingAtoms":["label:Code-Review=MAX"],"atomExplanations":{"value":{"label:Code-Review=MAX":"","label:Code-Review=MIN":""}}}
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Code-Review=MAX","label:Code-Review=MIN"],"atomExplanations":{"value":{"label:Code-Review=MAX":"","label:Code-Review=MIN":""}}}
       },
       "overrideExpressionResult": {},
       "patchSetCommitId": "54e21f0d75b25f8bd2c602d25fdb291494f660c6",
