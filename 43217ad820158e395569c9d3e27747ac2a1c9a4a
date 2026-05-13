@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e97801c4_ab7fc73d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-05-13T17:15:02Z",
+      "side": 1,
+      "message": "New structure and changes look good to me. Still should get tested with next build first before published.",
+      "revId": "43217ad820158e395569c9d3e27747ac2a1c9a4a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
