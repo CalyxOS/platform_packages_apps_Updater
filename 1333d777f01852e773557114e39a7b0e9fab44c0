@@ -1,5 +1,98 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4471ae69_287debb5",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-05-18T20:59:46Z",
+      "side": 1,
+      "message": "New CalyxOS release is ready for download",
+      "range": {
+        "startLine": 4,
+        "startChar": 38,
+        "endLine": 4,
+        "endChar": 73
+      },
+      "revId": "1333d777f01852e773557114e39a7b0e9fab44c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bc4fc94_895e32dc",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-05-18T20:59:46Z",
+      "side": 1,
+      "message": "You can now download and install 7.2.2.0 with the new signing key.",
+      "range": {
+        "startLine": 5,
+        "startChar": 37,
+        "endLine": 5,
+        "endChar": 86
+      },
+      "revId": "1333d777f01852e773557114e39a7b0e9fab44c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d33cf484_f000ab76",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-05-18T20:59:46Z",
+      "side": 1,
+      "message": "The CalyxOS official release is now available. With this new release, you\u0027ll resume receiving all over-the-air (OTA) updates and full maintenance support. Make sure to check if you need to restore your phone before installing the new CalyxOS. Tap to get the full installing guide.",
+      "range": {
+        "startLine": 6,
+        "startChar": 42,
+        "endLine": 6,
+        "endChar": 211
+      },
+      "revId": "1333d777f01852e773557114e39a7b0e9fab44c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cbebae8_b93d9a33",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-05-18T20:59:46Z",
+      "side": 1,
+      "message": "@aysha@calyx.org My preference is to link to https://calyxos.org/install/ instead of the news update. Thoughts?",
+      "range": {
+        "startLine": 7,
+        "startChar": 62,
+        "endLine": 7,
+        "endChar": 124
+      },
+      "revId": "1333d777f01852e773557114e39a7b0e9fab44c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
@@ -20,10 +113,10 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Builds=MAX AND -label:Builds=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Builds=MAX","label:Builds=MIN"]}
+        "value": {"expression":{"expressionString":"label:Builds=MAX AND -label:Builds=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Builds=MAX","label:Builds=MIN"],"atomExplanations":{"value":null}}
       },
       "overrideExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Builds=0 AND (label:Works=MAX OR label:Bypass-Verification=MAX)"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX","label:Builds=0"],"failingAtoms":["label:Bypass-Verification=MAX"]}
+        "value": {"expression":{"expressionString":"label:Builds=0 AND (label:Works=MAX OR label:Bypass-Verification=MAX)"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX","label:Builds=0"],"failingAtoms":["label:Bypass-Verification=MAX"],"atomExplanations":{"value":null}}
       },
       "patchSetCommitId": "1333d777f01852e773557114e39a7b0e9fab44c0",
       "legacy": {
@@ -47,7 +140,7 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MAX"],"failingAtoms":["label:Code-Review=MIN"]}
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MAX"],"failingAtoms":["label:Code-Review=MIN"],"atomExplanations":{"value":null}}
       },
       "overrideExpressionResult": {},
       "patchSetCommitId": "1333d777f01852e773557114e39a7b0e9fab44c0",
@@ -76,10 +169,10 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Works=MAX AND -label:Works=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX"],"failingAtoms":["label:Works=MIN"]}
+        "value": {"expression":{"expressionString":"label:Works=MAX AND -label:Works=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX"],"failingAtoms":["label:Works=MIN"],"atomExplanations":{"value":null}}
       },
       "overrideExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Works=0 AND label:Bypass-Verification=MAX"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Bypass-Verification=MAX","label:Works=0"]}
+        "value": {"expression":{"expressionString":"label:Works=0 AND label:Bypass-Verification=MAX"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Bypass-Verification=MAX","label:Works=0"],"atomExplanations":{"value":null}}
       },
       "patchSetCommitId": "1333d777f01852e773557114e39a7b0e9fab44c0",
       "legacy": {
