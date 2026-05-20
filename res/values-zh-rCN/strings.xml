@@ -25,4 +25,5 @@
     <string name="network_type_unmetered">数据流量时禁用</string>
     <string name="network_type_not_roaming">漫游时禁用</string>
     <string name="channel_title">更新频道</string>
+    <string name="channel_security_express">安全信息速递</string>
 </resources>
