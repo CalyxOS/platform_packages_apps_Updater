@@ -7,4 +7,23 @@
     <string name="app_name">Systemuppdaterare</string>
     <string name="channel_beta">Beta</string>
     <string name="channel_stable">Stabil</string>
+    <string name="notification_channel">Omstartsuppmaning</string>
+    <string name="notification_channel_progress">Uppdateringsförlopp</string>
+    <string name="notification_title">Uppdateringen har installerats</string>
+    <string name="notification_title_legacy">Uppdateringen har hämtats</string>
+    <string name="notification_text">Starta om enheten för att köra den senaste operativsystemsversionen.</string>
+    <string name="notification_text_legacy">Installera den senaste operativsystemsversionen.</string>
+    <string name="notification_reboot_action_legacy">Starta om och installera</string>
+    <string name="settings_title">Systemuppdateringsinställningar</string>
+    <string name="channel_title">Utgåvekanal</string>
+    <string name="network_type_title">Tillåtna nätverk</string>
+    <string name="network_type_any">Alla</string>
+    <string name="network_type_not_roaming">Inte vid roaming</string>
+    <string name="network_type_unmetered">Odebiterade</string>
+    <string name="battery_not_low_title">Kräv batterinivå över varningsnivån</string>
+    <string name="battery_not_low_summary">Hämta eller installera bara uppdateringar när batterinivån är över varningsnivån</string>
+    <string name="idle_reboot_title">Automatisk omstart</string>
+    <string name="idle_reboot_summary">Starta om automatiskt när enheten är inaktiv efter att en uppdatering har installerats</string>
+    <string name="check_for_updates_summary">Tryck för att söka efter uppdateringar så snart som möjligt</string>
+    <string name="channel_security_express">Snabba säkerhetsuppdateringar</string>
 </resources>
